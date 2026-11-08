@@ -17,12 +17,17 @@
   
   .pop { transform-box: fill-box; transform-origin: center; animation: pop .6s cubic-bezier(.16,1,.3,1) backwards; }
   @keyframes pop { from { opacity: 0; transform: scale(.6); } }
+  /* gerak pelan tanpa efek cahaya */
+  .live { animation: soft 2.8s ease-in-out infinite; }
+  .nudge { animation: nudge 3.2s cubic-bezier(.45,0,.55,1) infinite; }
+  @keyframes soft { 50% { opacity: .35; } }
+  @keyframes nudge { 0%, 60%, 100% { transform: translate(0, 0); } 75% { transform: translate(2.5px, -2.5px); } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
 <rect x="0.5" y="0.5" width="494" height="175" rx="14" fill="#0d1117" stroke="#2a313c"/>
 
 <g class="rise" style="animation-delay:.05s">
-  <circle cx="31" cy="34" r="3.5" fill="#3fb950"/>
+  <circle cx="31" cy="34" r="3.5" fill="#3fb950" class="live"/>
   <text x="40" y="38" font-size="10.5" fill="#3fb950" class="mono">LIVE</text>
   <text x="467" y="38" font-size="11" fill="#6e7681" text-anchor="end" class="mono" style="letter-spacing:1px">2026</text>
 </g>
@@ -32,6 +37,6 @@
 <g class="rise" style="animation-delay:.28s">
   <text x="28" y="158" font-size="12" fill="#8b949e">HTML  ·  CSS  ·  JavaScript  ·  Node.js</text>
   <text x="449" y="158" font-size="12" font-weight="600" fill="#6ca0dc" text-anchor="end">Kunjungi website</text>
-  <path transform="translate(455 148)" d="M2 10 L10 2 M4 2 H10 V8" fill="none" stroke="#6ca0dc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(455 148)"><path class="nudge" d="M2 10 L10 2 M4 2 H10 V8" fill="none" stroke="#6ca0dc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>
 </g>
 </svg>

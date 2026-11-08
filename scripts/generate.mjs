@@ -216,8 +216,11 @@ function trendCard(t) {
     '<text x="' + (W - 28) + '" y="38" font-size="12.5" fill="' + t.muted + '" text-anchor="end"><tspan font-weight="700" fill="' + t.text + '">' + num(sum) + '</tspan> kontribusi</text>' +
     grid +
     '<path d="' + d + " L" + R + "," + B + " L" + L + "," + B + ' Z" fill="' + t.accent + '" fill-opacity=".07" class="fade" style="animation-delay:.9s"/>' +
-    '<path d="' + d + '" fill="none" stroke="' + t.accent + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" style="animation: draw 1.8s .2s cubic-bezier(.65,0,.35,1) backwards"/>' +
-    dots + peakTxt + labels;
+    '<path id="trendline" d="' + d + '" fill="none" stroke="' + t.accent + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" style="animation: draw 1.8s .2s cubic-bezier(.65,0,.35,1) backwards"/>' +
+    dots + peakTxt + labels +
+    '<circle r="4" fill="' + t.bg + '" stroke="' + t.accent + '" stroke-width="2" opacity="0">' +
+    '<animate attributeName="opacity" values="0;1" begin="2.2s" dur=".5s" fill="freeze"/>' +
+    '<animateMotion dur="10s" begin="2.2s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"><mpath href="#trendline"/></animateMotion></circle>';
   return frame(W, H, t, "Kontribusi harian 31 hari terakhir " + LOGIN + ": " + sum + " kontribusi", body);
 }
 

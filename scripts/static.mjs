@@ -49,6 +49,8 @@ function banner() {
   .mono { font-family: ${MONO}; }
   .serif { font-family: ${SERIF}; font-style: italic; }
   .in { animation: rise 1.1s cubic-bezier(.16,1,.3,1) backwards; }
+  .caret { animation: caret 1.1s steps(1) infinite; }
+  @keyframes caret { 50% { fill-opacity: 0; } }
   @keyframes rise { from { opacity: 0; transform: translateY(16px); } }
   @keyframes flowA { to { transform: translateX(-${P}px); } }
   @keyframes flowB { from { transform: translateX(-${P}px); } to { transform: translateX(0); } }
@@ -68,7 +70,7 @@ function banner() {
   </g>
   <g class="in" style="animation-delay:.55s">
     <text x="72" y="216" font-size="24" fill="#c3ccd6">Merancang &amp; membangun aplikasi <tspan class="serif" fill="#9dbfe6">web</tspan> dan <tspan class="serif" fill="#9dbfe6">mobile</tspan></text>
-    <text x="72" y="248" font-size="24" fill="#c3ccd6">— dari tampilan sampai server.</text>
+    <text x="72" y="248" font-size="24" fill="#c3ccd6">— dari tampilan sampai server.<tspan class="caret" fill="#9dbfe6" font-weight="300" dx="4">|</tspan></text>
   </g>
   <g class="in" style="animation-delay:.8s">
     <circle cx="80" cy="292" r="5" fill="#3fb950"/>

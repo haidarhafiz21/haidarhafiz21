@@ -8,7 +8,12 @@ const GREEN = { dark: "#3fb950", light: "#1a7f37" };
 
 const CSS = `
   .pop { transform-box: fill-box; transform-origin: center; animation: pop .6s cubic-bezier(.16,1,.3,1) backwards; }
-  @keyframes pop { from { opacity: 0; transform: scale(.6); } }`;
+  @keyframes pop { from { opacity: 0; transform: scale(.6); } }
+  /* gerak pelan tanpa efek cahaya */
+  .live { animation: soft 2.8s ease-in-out infinite; }
+  .nudge { animation: nudge 3.2s cubic-bezier(.45,0,.55,1) infinite; }
+  @keyframes soft { 50% { opacity: .35; } }
+  @keyframes nudge { 0%, 60%, 100% { transform: translate(0, 0); } 75% { transform: translate(2.5px, -2.5px); } }`;
 
 /* =========================================================
    Kartu proyek (sederhana)
@@ -34,7 +39,7 @@ function projectCard(p, t, mode) {
   const tagX = p.live ? 40 : 28;
   const body = `
 <g class="rise" style="animation-delay:.05s">
-  ${p.live ? `<circle cx="31" cy="34" r="3.5" fill="${GREEN[mode]}"/>` : ""}
+  ${p.live ? `<circle cx="31" cy="34" r="3.5" fill="${GREEN[mode]}" class="live"/>` : ""}
   <text x="${tagX}" y="38" font-size="10.5" fill="${p.live ? GREEN[mode] : t.muted}" class="mono">${esc(p.tag)}</text>
   <text x="${W - 28}" y="38" font-size="11" fill="${t.faint}" text-anchor="end" class="mono" style="letter-spacing:1px">${esc(p.year)}</text>
 </g>
@@ -45,7 +50,7 @@ function projectCard(p, t, mode) {
   <text x="28" y="158" font-size="12" fill="${t.muted}">${esc(p.tech.join("  ·  "))}</text>
   ${p.link
     ? `<text x="${W - 46}" y="158" font-size="12" font-weight="600" fill="${t.accent}" text-anchor="end">${esc(p.link)}</text>
-  <path transform="translate(${W - 40} 148)" d="M2 10 L10 2 M4 2 H10 V8" fill="none" stroke="${t.accent}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>`
+  <g transform="translate(${W - 40} 148)"><path class="nudge" d="M2 10 L10 2 M4 2 H10 V8" fill="none" stroke="${t.accent}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>`
     : `<text x="${W - 28}" y="158" font-size="12" fill="${t.faint}" text-anchor="end">Repositori privat</text>`}
 </g>`;
   return frame(W, H, t, `${p.title} — ${p.desc}`, body, CSS);
@@ -62,6 +67,13 @@ const JOURNEY = [
 ];
 function timeline(t) {
   const W = 990, axisY = 96, colW = 236, x0 = 28;
+  // Titik kecil yang berjalan dari tahun ke tahun, berhenti sebentar di tiap tahun
+  const nx = JOURNEY.map((_, i) => x0 + i * (colW + 8) + 6);
+  const seg = 100 / (JOURNEY.length * 2);
+  const frames = nx.map((x, i) => `${(i * 2 * seg).toFixed(1)}%, ${((i * 2 + 1) * seg - 4).toFixed(1)}% { transform: translateX(${(x - nx[0]).toFixed(1)}px); opacity: 1; }`).join(" ");
+  const walker = `<style>@keyframes walk { ${frames} 100% { transform: translateX(${(nx[nx.length - 1] - nx[0]).toFixed(1)}px); opacity: 0; } }
+  .walker { animation: walk 11s 2.2s cubic-bezier(.65,0,.35,1) infinite backwards; }</style>
+<circle cx="${nx[0]}" cy="${axisY}" r="2.6" fill="${t.accent}" class="walker"/>`;
   const nodes = JOURNEY.map(([year, title, detail], i) => {
     const x = x0 + i * (colW + 8), d = 0.4 + i * 0.25;
     const lines = wrap(detail, 12.5, colW - 16);
@@ -80,7 +92,8 @@ function timeline(t) {
 <text x="${W - 28}" y="38" font-size="11" fill="${t.muted}" class="mono fade" text-anchor="end">2023 – SEKARANG</text>
 <line x1="${x0 + 6}" y1="${axisY}" x2="${W - 28}" y2="${axisY}" stroke="${t.border}" stroke-width="1.5"/>
 <line x1="${x0 + 6}" y1="${axisY}" x2="${W - 28}" y2="${axisY}" stroke="${t.accent}" stroke-width="1.5" stroke-opacity=".55" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" style="animation: draw 1.6s .2s cubic-bezier(.65,0,.35,1) backwards"/>
-${nodes}`;
+${nodes}
+${walker}`;
   return frame(W, H, t, "Perjalanan 2023 sampai sekarang", body, CSS);
 }
 
