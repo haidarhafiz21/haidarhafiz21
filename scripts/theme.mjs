@@ -25,6 +25,18 @@ export function textW(s, size, bold = false) {
   return w * size * (bold ? 1.06 : 1);
 }
 
+// Memecah teks menjadi beberapa baris sesuai lebar maksimum
+export function wrap(text, size, maxW, bold = false) {
+  const lines = [];
+  let line = "";
+  for (const w of text.split(" ")) {
+    const t = line ? line + " " + w : w;
+    if (textW(t, size, bold) > maxW && line) { lines.push(line); line = w; } else line = t;
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+
 export function frame(w, h, t, label, body, extraCss = "") {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(label)}">
 <title>${esc(label)}</title>

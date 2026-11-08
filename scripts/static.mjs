@@ -128,8 +128,9 @@ ${rows}`;
 const SECTIONS = [
   ["01", "Tentang", "PROFIL"],
   ["02", "Keahlian", "TEKNOLOGI"],
-  ["03", "Aktivitas", "GITHUB"],
-  ["04", "Proyek", "KARYA"],
+  ["03", "Proyek", "KARYA"],
+  ["04", "Perjalanan", "LINIMASA"],
+  ["05", "Aktivitas", "GITHUB"],
 ];
 function sectionHeader([no, title, tag], idx, t) {
   const W = 990, H = 72, base = 50;
