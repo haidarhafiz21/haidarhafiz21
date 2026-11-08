@@ -27,7 +27,6 @@
 <text x="2" y="50" font-size="40" class="no">03</text>
 <g clip-path="url(#tclip)"><text x="78" y="50" font-size="28" font-weight="800" fill="#1f1b16" letter-spacing="-.5" class="ttl">Proyek</text></g>
 <line x1="195.19520000000003" y1="41" x2="865.3499999999999" y2="41" stroke="#e7e0d4" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" class="ln"/>
-<g clip-path="url(#lclip)"><rect x="195.19520000000003" y="39.5" width="160" height="3" fill="url(#sweep)" class="sw"/></g>
 <circle cx="865.3499999999999" cy="41" r="3.5" fill="#d9482f" class="dot"/>
 <text x="986" y="45" font-size="11" fill="#6f685e" text-anchor="end" letter-spacing="2" font-family="Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace" class="tag">KARYA · 03/05</text>
 </svg>

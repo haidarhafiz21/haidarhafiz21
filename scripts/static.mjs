@@ -76,7 +76,6 @@ function banner() {
     <text x="72" y="248" font-size="24" fill="#cfc7b8">— dari tampilan sampai server.</text>
   </g>
   <g class="in" style="animation-delay:.8s">
-    <circle cx="80" cy="292" r="5" fill="#7ee0a1" class="pulse"/>
     <circle cx="80" cy="292" r="5" fill="#7ee0a1"/>
     <text x="96" y="297" font-size="15" fill="#e9e2d5">Tersedia untuk kerja &amp; proyek freelance</text>
   </g>
@@ -168,7 +167,6 @@ function sectionHeader([no, title, tag], idx, t) {
 <text x="2" y="${base}" font-size="40" class="no">${no}</text>
 <g clip-path="url(#tclip)"><text x="${titleX}" y="${base}" font-size="28" font-weight="800" fill="${t.text}" letter-spacing="-.5" class="ttl">${esc(title)}</text></g>
 <line x1="${lineX1}" y1="${base - 9}" x2="${lineX2}" y2="${base - 9}" stroke="${t.border}" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" class="ln"/>
-<g clip-path="url(#lclip)"><rect x="${lineX1}" y="${base - 10.5}" width="160" height="3" fill="url(#sweep)" class="sw"/></g>
 <circle cx="${lineX2}" cy="${base - 9}" r="3.5" fill="${t.accent2}" class="dot"/>
 <text x="${W - 4}" y="${base - 5}" font-size="11" fill="${t.muted}" text-anchor="end" letter-spacing="2" font-family="${MONO}" class="tag">${esc(tagText)}</text>
 </svg>`;

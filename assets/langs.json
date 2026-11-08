@@ -1,0 +1,47 @@
+[
+ {
+  "name": "HTML",
+  "color": "#e34c26",
+  "pct": 46.97
+ },
+ {
+  "name": "Dart",
+  "color": "#00B4AB",
+  "pct": 21.16
+ },
+ {
+  "name": "JavaScript",
+  "color": "#f1e05a",
+  "pct": 17.72
+ },
+ {
+  "name": "CSS",
+  "color": "#663399",
+  "pct": 8.49
+ },
+ {
+  "name": "SCSS",
+  "color": "#c6538c",
+  "pct": 2.35
+ },
+ {
+  "name": "Pug",
+  "color": "#a86454",
+  "pct": 2.3
+ },
+ {
+  "name": "EJS",
+  "color": "#a91e50",
+  "pct": 0.47
+ },
+ {
+  "name": "Python",
+  "color": "#3572A5",
+  "pct": 0.46
+ },
+ {
+  "name": "TypeScript",
+  "color": "#3178c6",
+  "pct": 0.07
+ }
+]

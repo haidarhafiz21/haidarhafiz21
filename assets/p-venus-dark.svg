@@ -50,7 +50,6 @@
 <rect x="111" y="52" width="122" height="8" rx="4" fill="#ece6da" fill-opacity=".8"/>
 <rect x="111" y="65" width="92" height="6" rx="3" fill="#8f8a80" fill-opacity=".5"/>
 <rect x="111" y="77" width="48" height="13" rx="6.5" fill="#f2a03d"/>
-<circle cx="135" cy="83.5" r="7" fill="none" stroke="#f2a03d" class="ripple"/>
 <rect x="279" y="48" width="104" height="44" rx="6" fill="#f2a03d" fill-opacity=".12"/>
 <rect class="grow" style="animation-delay:0.4s" x="289" y="72" width="9" height="16" rx="2" fill="#f2a03d" fill-opacity=".75"/><rect class="grow" style="animation-delay:0.48000000000000004s" x="304" y="62" width="9" height="26" rx="2" fill="#f2a03d" fill-opacity=".75"/><rect class="grow" style="animation-delay:0.56s" x="319" y="68" width="9" height="20" rx="2" fill="#f2a03d" fill-opacity=".75"/><rect class="grow" style="animation-delay:0.64s" x="334" y="56" width="9" height="32" rx="2" fill="#f2a03d" fill-opacity=".75"/><rect class="grow" style="animation-delay:0.72s" x="349" y="64" width="9" height="24" rx="2" fill="#f2a03d" fill-opacity=".75"/><rect class="grow" style="animation-delay:0.8s" x="364" y="52" width="9" height="36" rx="2" fill="#f2a03d" fill-opacity=".75"/>
 <g class="pop" style="animation-delay:0.5s">
@@ -64,7 +63,7 @@
       <rect x="321" y="100" width="62" height="5" rx="2" fill="#f2a03d" fill-opacity=".7"/></g>
 <g transform="translate(136 84)"><g class="cursor"><path d="M0 0 L0 15 L4 11 L7 18 L10 16.6 L7 10 L12.5 10 Z" fill="#ece6da" stroke="#0f1115" stroke-width="1.2"/></g></g></g>
 <g class="rise" style="animation-delay:.15s">
-  <circle cx="28" cy="162" r="3.5" fill="#3fb27f"/><circle cx="28" cy="162" r="3.5" fill="none" stroke="#3fb27f" class="ping"/>
+  <circle cx="28" cy="162" r="3.5" fill="#3fb27f"/>
   <text x="38" y="166" font-size="10.5" fill="#3fb27f" class="mono">LIVE<tspan fill="#5b5850"> · 2026</tspan></text>
   <text x="471" y="168" font-size="16" fill="#8f8a80" text-anchor="end">↗</text>
 </g>

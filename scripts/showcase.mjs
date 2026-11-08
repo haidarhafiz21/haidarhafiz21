@@ -23,7 +23,6 @@ ${[0, 1, 2].map((i) => `<circle cx="${x + 12 + i * 9}" cy="${y + 9}" r="2.6" fil
 <rect x="${x + 14}" y="${y + 28}" width="122" height="8" rx="4" fill="${t.text}" fill-opacity=".8"/>
 <rect x="${x + 14}" y="${y + 41}" width="92" height="6" rx="3" fill="${t.muted}" fill-opacity=".5"/>
 <rect x="${x + 14}" y="${y + 53}" width="48" height="13" rx="6.5" fill="${t.accent}"/>
-<circle cx="${x + 38}" cy="${y + 59.5}" r="7" fill="none" stroke="${t.accent}" class="ripple"/>
 <rect x="${x + 182}" y="${y + 24}" width="104" height="44" rx="6" fill="${t.accent}" fill-opacity=".12"/>
 ${bars}
 ${tiles}
@@ -49,7 +48,7 @@ ${tiles}
 <rect x="${px + 7}" y="${py + 16}" width="50" height="6" rx="3" fill="${t.accent}" fill-opacity=".6"/>
 <g class="fade" style="animation-delay:.4s">${qr}</g>
 <rect x="${px + 7}" y="${py + 82}" width="50" height="14" rx="7" fill="${t.accent}"/>
-<g class="scan"><rect x="${px + 5}" y="${qy - 2}" width="${pw - 10}" height="2" fill="${t.accent2}"/><rect x="${px + 5}" y="${qy - 10}" width="${pw - 10}" height="8" fill="${t.accent2}" fill-opacity=".18"/></g>
+<g class="scan"><rect x="${px + 5}" y="${qy - 2}" width="${pw - 10}" height="2" fill="${t.accent2}"/></g>
 <line x1="${px + pw + 14}" y1="76" x2="285" y2="76" stroke="${t.muted}" stroke-width="1.5" stroke-dasharray="4 5" class="flow"/>
 <path d="M281 71 L288 76 L281 81" fill="none" stroke="${t.muted}" stroke-width="1.5"/>
 <g class="pop" style="animation-delay:.3s">
@@ -88,8 +87,7 @@ ${[40, 70, 100].map((gy) => `<line x1="40" y1="${gy}" x2="455" y2="${gy}" stroke
 ${body}
 <path d="${line}" fill="none" stroke="${t.accent}" stroke-width="1.6" stroke-opacity=".8" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" class="draw"/>
 <line x1="40" y1="${Y(last.c).toFixed(1)}" x2="455" y2="${Y(last.c).toFixed(1)}" stroke="${t.accent}" stroke-dasharray="3 4" stroke-opacity=".6"/>
-<circle cx="${cx(16)}" cy="${Y(last.c).toFixed(1)}" r="3.5" fill="${t.accent}"/>
-<circle cx="${cx(16)}" cy="${Y(last.c).toFixed(1)}" r="3.5" fill="none" stroke="${t.accent}" class="ping"/>`;
+<circle cx="${cx(16)}" cy="${Y(last.c).toFixed(1)}" r="3.5" fill="${t.accent}"/>`;
   },
   news(t) {
     const blocks = [56, 90, 40, 74, 62, 96, 48, 80];
@@ -170,7 +168,7 @@ function projectCard(p, t) {
 <rect x="16" y="16" width="${W - 32}" height="122" rx="10" fill="${t.chip}"/>
 <g clip-path="url(#art)">${ART[p.art](t)}</g>
 <g class="rise" style="animation-delay:.15s">
-  ${p.live ? `<circle cx="28" cy="162" r="3.5" fill="${UP}"/><circle cx="28" cy="162" r="3.5" fill="none" stroke="${UP}" class="ping"/>` : ""}
+  ${p.live ? `<circle cx="28" cy="162" r="3.5" fill="${UP}"/>` : ""}
   <text x="${p.live ? 38 : 24}" y="166" font-size="10.5" fill="${p.live ? UP : t.accent}" class="mono">${esc(p.tag)}<tspan fill="${t.faint}"> · ${esc(p.year)}</tspan></text>
   ${p.link ? `<text x="${W - 24}" y="168" font-size="16" fill="${t.muted}" text-anchor="end">↗</text>` : `<text x="${W - 24}" y="166" font-size="10.5" fill="${t.faint}" text-anchor="end" class="mono">PRIVAT</text>`}
 </g>
@@ -197,7 +195,6 @@ function timeline(t) {
     return `
 <g class="rise" style="animation-delay:${d}s"><text x="${x}" y="${axisY - 20}" font-size="30" font-weight="700" fill="${last ? t.accent2 : t.accent}" class="serif">${year}</text></g>
 <circle cx="${x + 6}" cy="${axisY}" r="6" fill="${t.bg}" stroke="${last ? t.accent2 : t.accent}" stroke-width="2.5" class="pop" style="animation-delay:${d}s"/>
-${last ? `<circle cx="${x + 6}" cy="${axisY}" r="6" fill="none" stroke="${t.accent2}" class="ping"/>` : ""}
 <g class="rise" style="animation-delay:${d + 0.12}s">
   <text x="${x}" y="${axisY + 32}" font-size="14.5" font-weight="700" fill="${t.text}">${esc(title)}</text>
   ${lines.map((l, k) => `<text x="${x}" y="${axisY + 52 + k * 17}" font-size="12.5" fill="${t.muted}">${esc(l)}</text>`).join("")}
@@ -249,7 +246,7 @@ function footer() {
   <g mask="url(#m)">${waves.join("")}</g>
   <g class="in" style="animation-delay:.1s"><text x="600" y="92" font-size="38" fill="#f4efe6" text-anchor="middle" font-family="${SERIF}" font-style="italic">Terima kasih sudah mampir.</text></g>
   <g class="in" style="animation-delay:.35s">
-    <circle cx="${600 - 170}" cy="128" r="4.5" fill="#7ee0a1" class="pulse"/><circle cx="${600 - 170}" cy="128" r="4.5" fill="#7ee0a1"/>
+    <circle cx="${600 - 170}" cy="128" r="4.5" fill="#7ee0a1"/>
     <text x="${600 - 156}" y="133" font-size="16" fill="#cfc7b8">Terbuka untuk tawaran kerja &amp; proyek freelance</text>
   </g>
 </g>
