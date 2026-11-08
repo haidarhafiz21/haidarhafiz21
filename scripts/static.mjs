@@ -20,7 +20,7 @@ function banner() {
       d += (x ? " L" : "M") + x + "," + y.toFixed(1);
     }
     const dur = 26 + (j % 6) * 7;
-    const op = (0.16 + (j / N) * 0.5).toFixed(2);
+    const op = (0.07 + (j / N) * 0.26).toFixed(2);
     const dir = j % 2 ? "flowB" : "flowA";
     waves.push(`<path d="${d}" fill="none" stroke="url(#wv)" stroke-width="${j % 4 === 0 ? 1.6 : 1}" stroke-opacity="${op}" style="animation: ${dir} ${dur}s linear infinite"/>`);
   }
@@ -28,18 +28,18 @@ function banner() {
 <title>A. Haidar Hafiz — merancang &amp; membangun aplikasi web dan mobile</title>
 <defs>
   <linearGradient id="wv" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#f2a03d"/><stop offset=".5" stop-color="#ff6b5a"/><stop offset="1" stop-color="#f2a03d"/>
+    <stop offset="0" stop-color="#7d93b2"/><stop offset=".5" stop-color="#a7b8cf"/><stop offset="1" stop-color="#7d93b2"/>
   </linearGradient>
   <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
     <stop offset=".2" stop-color="#fff" stop-opacity="0"/><stop offset=".62" stop-color="#fff" stop-opacity="1"/>
   </linearGradient>
   <mask id="m"><rect width="${W}" height="${H}" fill="url(#fadeL)"/></mask>
-  <radialGradient id="sun" cx=".84" cy=".3" r=".5">
-    <stop offset="0" stop-color="#ff6b5a" stop-opacity=".22"/><stop offset="1" stop-color="#ff6b5a" stop-opacity="0"/>
-  </radialGradient>
+  <linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0f141b"/><stop offset="1" stop-color="#17202b"/>
+  </linearGradient>
   <filter id="grain" x="0" y="0" width="100%" height="100%">
     <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
-    <feColorMatrix values="0 0 0 0 1  0 0 0 0 .95  0 0 0 0 .88  0 0 0 .05 0"/>
+    <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .035 0"/>
   </filter>
   <clipPath id="card"><rect width="${W}" height="${H}" rx="20"/></clipPath>
   <clipPath id="reveal"><rect x="0" y="100" width="${W}" height="90"><animate attributeName="width" from="0" to="${W}" dur="1.6s" calcMode="spline" keyTimes="0;1" keySplines=".16 1 .3 1" fill="freeze"/></rect></clipPath>
@@ -49,35 +49,30 @@ function banner() {
   .mono { font-family: ${MONO}; }
   .serif { font-family: ${SERIF}; font-style: italic; }
   .in { animation: rise 1.1s cubic-bezier(.16,1,.3,1) backwards; }
-  .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.6s cubic-bezier(.16,1,.3,1) infinite; }
-  .breathe { animation: breathe 9s ease-in-out infinite alternate; }
   @keyframes rise { from { opacity: 0; transform: translateY(16px); } }
   @keyframes flowA { to { transform: translateX(-${P}px); } }
   @keyframes flowB { from { transform: translateX(-${P}px); } to { transform: translateX(0); } }
-  @keyframes pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(3.2); opacity: 0; } }
-  @keyframes breathe { to { opacity: .55; transform: translate(-30px, 14px); } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
 <g clip-path="url(#card)">
-  <rect width="${W}" height="${H}" fill="#0f1115"/>
-  <rect width="${W}" height="${H}" fill="url(#sun)" class="breathe"/>
+  <rect width="${W}" height="${H}" fill="url(#bgg)"/>
   <g mask="url(#m)">${waves.join("\n  ")}</g>
   <rect width="${W}" height="${H}" filter="url(#grain)"/>
 
   <g class="in" style="animation-delay:.05s">
-    <line x1="72" y1="91" x2="104" y2="91" stroke="#f2a03d" stroke-width="2"/>
-    <text x="116" y="96" font-size="13" fill="#d8b98a" class="mono" letter-spacing="4">PAMEKASAN, MADURA</text>
+    <line x1="72" y1="91" x2="104" y2="91" stroke="#6ca0dc" stroke-width="2"/>
+    <text x="116" y="96" font-size="13" fill="#8b949e" class="mono" letter-spacing="4">PAMEKASAN, MADURA</text>
   </g>
   <g clip-path="url(#reveal)">
-    <text x="68" y="168" font-size="68" font-weight="800" fill="#f4efe6" letter-spacing="-2">A. Haidar Hafiz</text>
+    <text x="68" y="168" font-size="68" font-weight="800" fill="#f0f3f6" letter-spacing="-2">A. Haidar Hafiz</text>
   </g>
   <g class="in" style="animation-delay:.55s">
-    <text x="72" y="216" font-size="24" fill="#cfc7b8">Merancang &amp; membangun aplikasi <tspan class="serif" fill="#f2a03d">web</tspan> dan <tspan class="serif" fill="#ff8a6b">mobile</tspan></text>
-    <text x="72" y="248" font-size="24" fill="#cfc7b8">— dari tampilan sampai server.</text>
+    <text x="72" y="216" font-size="24" fill="#c3ccd6">Merancang &amp; membangun aplikasi <tspan class="serif" fill="#9dbfe6">web</tspan> dan <tspan class="serif" fill="#9dbfe6">mobile</tspan></text>
+    <text x="72" y="248" font-size="24" fill="#c3ccd6">— dari tampilan sampai server.</text>
   </g>
   <g class="in" style="animation-delay:.8s">
-    <circle cx="80" cy="292" r="5" fill="#7ee0a1"/>
-    <text x="96" y="297" font-size="15" fill="#e9e2d5">Tersedia untuk kerja &amp; proyek freelance</text>
+    <circle cx="80" cy="292" r="5" fill="#3fb950"/>
+    <text x="96" y="297" font-size="15" fill="#d1d7de">Tersedia untuk kerja &amp; proyek freelance</text>
   </g>
 </g>
 </svg>`;
@@ -167,7 +162,7 @@ function sectionHeader([no, title, tag], idx, t) {
 <text x="2" y="${base}" font-size="40" class="no">${no}</text>
 <g clip-path="url(#tclip)"><text x="${titleX}" y="${base}" font-size="28" font-weight="800" fill="${t.text}" letter-spacing="-.5" class="ttl">${esc(title)}</text></g>
 <line x1="${lineX1}" y1="${base - 9}" x2="${lineX2}" y2="${base - 9}" stroke="${t.border}" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" class="ln"/>
-<circle cx="${lineX2}" cy="${base - 9}" r="3.5" fill="${t.accent2}" class="dot"/>
+<circle cx="${lineX2}" cy="${base - 9}" r="3" fill="${t.faint}" class="dot"/>
 <text x="${W - 4}" y="${base - 5}" font-size="11" fill="${t.muted}" text-anchor="end" letter-spacing="2" font-family="${MONO}" class="tag">${esc(tagText)}</text>
 </svg>`;
 }

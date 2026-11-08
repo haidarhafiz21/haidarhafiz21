@@ -186,9 +186,47 @@ ${langSvg}`;
   return frame(W, H, t, `Aktivitas GitHub ${LOGIN}: ${total} kontribusi, ${yearTotal} dalam 12 bulan terakhir, streak terpanjang ${longest} hari`, body);
 }
 
+/* ---------------- Grafik harian 31 hari ----------------
+   Garis tipis satu warna, area sangat tipis, tanpa efek cahaya. */
+function trendCard(t) {
+  const pts = days.slice(-31);
+  const W = 990, H = 290, L = 56, R = W - 32, T = 78, B = H - 50;
+  const max = Math.max(4, ...pts.map((p) => p.n));
+  const step = Math.ceil(max / 4), top = step * 4;
+  const x = (k) => L + (k / (pts.length - 1)) * (R - L);
+  const y = (n) => B - (n / top) * (B - T);
+  const xy = pts.map((p, k) => [x(k), y(p.n)]);
+  let d = "M" + xy[0][0].toFixed(1) + "," + xy[0][1].toFixed(1);
+  for (let k = 0; k < xy.length - 1; k++) {
+    const p0 = xy[k - 1] || xy[k], p1 = xy[k], p2 = xy[k + 1], p3 = xy[k + 2] || p2;
+    const c1 = [p1[0] + (p2[0] - p0[0]) / 6, Math.min(B, p1[1] + (p2[1] - p0[1]) / 6)];
+    const c2 = [p2[0] - (p3[0] - p1[0]) / 6, Math.min(B, p2[1] - (p3[1] - p1[1]) / 6)];
+    d += " C" + c1[0].toFixed(1) + "," + c1[1].toFixed(1) + " " + c2[0].toFixed(1) + "," + c2[1].toFixed(1) + " " + p2[0].toFixed(1) + "," + p2[1].toFixed(1);
+  }
+  const sum = pts.reduce((s, p) => s + p.n, 0);
+  const peak = pts.reduce((m, p, k) => (p.n > m.n ? { ...p, k } : m), { n: -1 });
+  const grid = [0, 1, 2, 3, 4].map((g) => '<line x1="' + L + '" y1="' + y(g * step) + '" x2="' + R + '" y2="' + y(g * step) + '" stroke="' + (g ? t.grid : t.border) + '"' + (g ? ' stroke-dasharray="2 4"' : "") + '/>' +
+    '<text x="' + (L - 12) + '" y="' + (y(g * step) + 4) + '" font-size="10.5" fill="' + t.faint + '" text-anchor="end">' + g * step + '</text>').join("");
+  const labels = pts.map((p, k) => (k % 5 === 0 || k === pts.length - 1)
+    ? '<text x="' + x(k) + '" y="' + (B + 22) + '" font-size="11" fill="' + t.muted + '" text-anchor="middle">' + esc(fmt(p.date, false)) + '</text>' : "").join("");
+  const dots = xy.map(([px, py], k) => pts[k].n > 0
+    ? '<circle cx="' + px.toFixed(1) + '" cy="' + py.toFixed(1) + '" r="3" fill="' + t.accent + '" class="fade" style="animation-delay:' + (1 + k * 0.02).toFixed(2) + 's"/>' : "").join("");
+  const peakTxt = peak.n > 0 ? '<text x="' + x(peak.k).toFixed(1) + '" y="' + (y(peak.n) - 12).toFixed(1) + '" font-size="11.5" fill="' + t.muted + '" text-anchor="' + (peak.k > pts.length - 4 ? "end" : "middle") + '" class="fade" style="animation-delay:1.3s"><tspan font-weight="700" fill="' + t.text + '">' + peak.n + '</tspan> · ' + esc(fmt(peak.date, false)) + '</text>' : "";
+  const body = '<text x="28" y="38" font-size="11" fill="' + t.muted + '" class="mono">KONTRIBUSI HARIAN · 31 HARI TERAKHIR</text>' +
+    '<text x="' + (W - 28) + '" y="38" font-size="12.5" fill="' + t.muted + '" text-anchor="end"><tspan font-weight="700" fill="' + t.text + '">' + num(sum) + '</tspan> kontribusi</text>' +
+    grid +
+    '<path d="' + d + " L" + R + "," + B + " L" + L + "," + B + ' Z" fill="' + t.accent + '" fill-opacity=".07" class="fade" style="animation-delay:.9s"/>' +
+    '<path d="' + d + '" fill="none" stroke="' + t.accent + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" style="animation: draw 1.8s .2s cubic-bezier(.65,0,.35,1) backwards"/>' +
+    dots + peakTxt + labels;
+  return frame(W, H, t, "Kontribusi harian 31 hari terakhir " + LOGIN + ": " + sum + " kontribusi", body);
+}
+
 /* ---------------- Tulis file ---------------- */
 fs.mkdirSync(OUT, { recursive: true });
 if (CARDS.includes("langs")) fs.writeFileSync(LANGS_FILE, JSON.stringify(await getLangs(), null, 1));
 const langs = JSON.parse(fs.readFileSync(LANGS_FILE, "utf8"));
-for (const [mode, t] of Object.entries(THEMES)) fs.writeFileSync(path.join(OUT, `overview-${mode}.svg`), overviewCard(t, langs));
+for (const [mode, t] of Object.entries(THEMES)) {
+  fs.writeFileSync(path.join(OUT, `overview-${mode}.svg`), overviewCard(t, langs));
+  fs.writeFileSync(path.join(OUT, `trend-${mode}.svg`), trendCard(t));
+}
 console.log(JSON.stringify({ total, yearTotal, activeDays, cur, longest, langs: langs.slice(0, 6).map((l) => `${l.name} ${l.pct}%`) }));

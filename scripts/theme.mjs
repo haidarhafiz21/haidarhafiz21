@@ -1,12 +1,12 @@
 // Palet & utilitas bersama untuk semua kartu profil.
 export const THEMES = {
   dark: {
-    bg: "#0f1115", border: "#262a33", text: "#ece6da", muted: "#8f8a80", faint: "#5b5850",
-    accent: "#f2a03d", accent2: "#ff6b5a", track: "#1d2027", grid: "#1a1d23", chip: "#181b21",
+    bg: "#0d1117", border: "#2a313c", text: "#e6edf3", muted: "#8b949e", faint: "#6e7681",
+    accent: "#6ca0dc", accent2: "#6ca0dc", track: "#1f252e", grid: "#1c222b", chip: "#151b23",
   },
   light: {
-    bg: "#fffdf9", border: "#e7e0d4", text: "#1f1b16", muted: "#6f685e", faint: "#a39b8f",
-    accent: "#c26a12", accent2: "#d9482f", track: "#f2ece2", grid: "#f3eee6", chip: "#f7f2ea",
+    bg: "#ffffff", border: "#d8dee4", text: "#1f2328", muted: "#59636e", faint: "#8c959f",
+    accent: "#2f5f98", accent2: "#2f5f98", track: "#eaeef2", grid: "#eef1f4", chip: "#f6f8fa",
   },
 };
 export const SANS = "'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif";

@@ -18,113 +18,113 @@
   .rise { animation-duration: .8s; }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
-<rect x="0.5" y="0.5" width="989" height="315" rx="14" fill="#fffdf9" stroke="#e7e0d4"/>
+<rect x="0.5" y="0.5" width="989" height="315" rx="14" fill="#ffffff" stroke="#d8dee4"/>
 
-<text x="28" y="38" font-size="11" fill="#6f685e" class="mono fade">KEAHLIAN</text>
-<g class="fade" font-size="12" fill="#6f685e">
-  <circle cx="762" cy="34" r="4" fill="#c26a12"/><text x="772" y="38">utama</text>
-  <rect x="830" y="28" width="14" height="12" rx="6" fill="#f7f2ea" stroke="#e7e0d4"/><text x="850" y="38">pernah dipakai</text>
+<text x="28" y="38" font-size="11" fill="#59636e" class="mono fade">KEAHLIAN</text>
+<g class="fade" font-size="12" fill="#59636e">
+  <circle cx="762" cy="34" r="4" fill="#2f5f98"/><text x="772" y="38">utama</text>
+  <rect x="830" y="28" width="14" height="12" rx="6" fill="#f6f8fa" stroke="#d8dee4"/><text x="850" y="38">pernah dipakai</text>
 </g>
-<text x="28" y="79" font-size="11" fill="#a39b8f" class="mono fade">WEB</text>
+<text x="28" y="79" font-size="11" fill="#8c959f" class="mono fade">WEB</text>
     <g class="rise" style="animation-delay:180ms">
-      <rect x="210" y="58" width="69.1" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="224" cy="74" r="3" fill="#c26a12"/>
-      <text x="233.0" y="78.5" font-size="13" font-weight="700" fill="#1f1b16">HTML</text></g><g class="rise" style="animation-delay:225ms">
-      <rect x="289.1352" y="58" width="57.3" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="303.1352" cy="74" r="3" fill="#c26a12"/>
-      <text x="312.1" y="78.5" font-size="13" font-weight="700" fill="#1f1b16">CSS</text></g><g class="rise" style="animation-delay:270ms">
-      <rect x="356.4196" y="58" width="98.3" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="370.4196" cy="74" r="3" fill="#c26a12"/>
-      <text x="379.4" y="78.5" font-size="13" font-weight="700" fill="#1f1b16">JavaScript</text></g>
-    <line x1="466.76840000000004" y1="64" x2="466.76840000000004" y2="84" stroke="#e7e0d4"/>
+      <rect x="210" y="58" width="69.1" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="224" cy="74" r="3" fill="#2f5f98"/>
+      <text x="233.0" y="78.5" font-size="13" font-weight="700" fill="#1f2328">HTML</text></g><g class="rise" style="animation-delay:225ms">
+      <rect x="289.1352" y="58" width="57.3" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="303.1352" cy="74" r="3" fill="#2f5f98"/>
+      <text x="312.1" y="78.5" font-size="13" font-weight="700" fill="#1f2328">CSS</text></g><g class="rise" style="animation-delay:270ms">
+      <rect x="356.4196" y="58" width="98.3" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="370.4196" cy="74" r="3" fill="#2f5f98"/>
+      <text x="379.4" y="78.5" font-size="13" font-weight="700" fill="#1f2328">JavaScript</text></g>
+    <line x1="466.76840000000004" y1="64" x2="466.76840000000004" y2="84" stroke="#d8dee4"/>
     <g class="rise" style="animation-delay:315ms">
-      <rect x="480.76840000000004" y="58" width="63.9" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <rect x="480.76840000000004" y="58" width="63.9" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="495.8" y="78.5" font-size="13" font-weight="400" fill="#6f685e">React</text></g><g class="rise" style="animation-delay:360ms">
-      <rect x="554.6984" y="58" width="87.1" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="495.8" y="78.5" font-size="13" font-weight="400" fill="#59636e">React</text></g><g class="rise" style="animation-delay:360ms">
+      <rect x="554.6984" y="58" width="87.1" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="569.7" y="78.5" font-size="13" font-weight="400" fill="#6f685e">Bootstrap</text></g><g class="rise" style="animation-delay:405ms">
-      <rect x="651.7684" y="58" width="111.4" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="569.7" y="78.5" font-size="13" font-weight="400" fill="#59636e">Bootstrap</text></g><g class="rise" style="animation-delay:405ms">
+      <rect x="651.7684" y="58" width="111.4" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="666.8" y="78.5" font-size="13" font-weight="400" fill="#6f685e">Tailwind CSS</text></g><g class="rise" style="animation-delay:450ms">
-      <rect x="773.1484" y="58" width="55.7" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="666.8" y="78.5" font-size="13" font-weight="400" fill="#59636e">Tailwind CSS</text></g><g class="rise" style="animation-delay:450ms">
+      <rect x="773.1484" y="58" width="55.7" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="788.1" y="78.5" font-size="13" font-weight="400" fill="#6f685e">EJS</text></g><g class="rise" style="animation-delay:495ms">
-      <rect x="838.8884" y="58" width="52.4" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="788.1" y="78.5" font-size="13" font-weight="400" fill="#59636e">EJS</text></g><g class="rise" style="animation-delay:495ms">
+      <rect x="838.8884" y="58" width="52.4" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="853.9" y="78.5" font-size="13" font-weight="400" fill="#6f685e">Pug</text></g><g class="rise" style="animation-delay:540ms">
-      <rect x="901.2484000000001" y="58" width="64.3" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="853.9" y="78.5" font-size="13" font-weight="400" fill="#59636e">Pug</text></g><g class="rise" style="animation-delay:540ms">
+      <rect x="901.2484000000001" y="58" width="64.3" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="916.2" y="78.5" font-size="13" font-weight="400" fill="#6f685e">SCSS</text></g>
-    <line x1="28" y1="100" x2="962" y2="100" stroke="#f3eee6"/><text x="28" y="127" font-size="11" fill="#a39b8f" class="mono fade">MOBILE</text>
+      <text x="916.2" y="78.5" font-size="13" font-weight="400" fill="#59636e">SCSS</text></g>
+    <line x1="28" y1="100" x2="962" y2="100" stroke="#eef1f4"/><text x="28" y="127" font-size="11" fill="#8c959f" class="mono fade">MOBILE</text>
     <g class="rise" style="animation-delay:585ms">
-      <rect x="210" y="106" width="72.3" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="224" cy="122" r="3" fill="#c26a12"/>
-      <text x="233.0" y="126.5" font-size="13" font-weight="700" fill="#1f1b16">Flutter</text></g><g class="rise" style="animation-delay:630ms">
-      <rect x="292.3046" y="106" width="56.3" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="306.3046" cy="122" r="3" fill="#c26a12"/>
-      <text x="315.3" y="126.5" font-size="13" font-weight="700" fill="#1f1b16">Dart</text></g>
-    <line x1="360.6244" y1="112" x2="360.6244" y2="132" stroke="#e7e0d4"/>
+      <rect x="210" y="106" width="72.3" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="224" cy="122" r="3" fill="#2f5f98"/>
+      <text x="233.0" y="126.5" font-size="13" font-weight="700" fill="#1f2328">Flutter</text></g><g class="rise" style="animation-delay:630ms">
+      <rect x="292.3046" y="106" width="56.3" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="306.3046" cy="122" r="3" fill="#2f5f98"/>
+      <text x="315.3" y="126.5" font-size="13" font-weight="700" fill="#1f2328">Dart</text></g>
+    <line x1="360.6244" y1="112" x2="360.6244" y2="132" stroke="#d8dee4"/>
     <g class="rise" style="animation-delay:675ms">
-      <rect x="374.6244" y="106" width="186.3" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <rect x="374.6244" y="106" width="186.3" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="389.6" y="126.5" font-size="13" font-weight="400" fill="#6f685e">Firebase Cloud Messaging</text></g>
-    <line x1="28" y1="148" x2="962" y2="148" stroke="#f3eee6"/><text x="28" y="175" font-size="11" fill="#a39b8f" class="mono fade">BACKEND</text>
+      <text x="389.6" y="126.5" font-size="13" font-weight="400" fill="#59636e">Firebase Cloud Messaging</text></g>
+    <line x1="28" y1="148" x2="962" y2="148" stroke="#eef1f4"/><text x="28" y="175" font-size="11" fill="#8c959f" class="mono fade">BACKEND</text>
     <g class="rise" style="animation-delay:720ms">
-      <rect x="210" y="154" width="77.0" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="224" cy="170" r="3" fill="#c26a12"/>
-      <text x="233.0" y="174.5" font-size="13" font-weight="700" fill="#1f1b16">Node.js</text></g><g class="rise" style="animation-delay:765ms">
-      <rect x="296.9898" y="154" width="96.6" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="310.9898" cy="170" r="3" fill="#c26a12"/>
-      <text x="320.0" y="174.5" font-size="13" font-weight="700" fill="#1f1b16">Express.js</text></g>
-    <line x1="405.54720000000003" y1="160" x2="405.54720000000003" y2="180" stroke="#e7e0d4"/>
+      <rect x="210" y="154" width="77.0" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="224" cy="170" r="3" fill="#2f5f98"/>
+      <text x="233.0" y="174.5" font-size="13" font-weight="700" fill="#1f2328">Node.js</text></g><g class="rise" style="animation-delay:765ms">
+      <rect x="296.9898" y="154" width="96.6" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="310.9898" cy="170" r="3" fill="#2f5f98"/>
+      <text x="320.0" y="174.5" font-size="13" font-weight="700" fill="#1f2328">Express.js</text></g>
+    <line x1="405.54720000000003" y1="160" x2="405.54720000000003" y2="180" stroke="#d8dee4"/>
     <g class="rise" style="animation-delay:810ms">
-      <rect x="419.54720000000003" y="154" width="90.8" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <rect x="419.54720000000003" y="154" width="90.8" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="434.5" y="174.5" font-size="13" font-weight="400" fill="#6f685e">REST API</text></g><g class="rise" style="animation-delay:855ms">
-      <rect x="520.3872" y="154" width="58.3" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="434.5" y="174.5" font-size="13" font-weight="400" fill="#59636e">REST API</text></g><g class="rise" style="animation-delay:855ms">
+      <rect x="520.3872" y="154" width="58.3" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="535.4" y="174.5" font-size="13" font-weight="400" fill="#6f685e">JWT</text></g><g class="rise" style="animation-delay:900ms">
-      <rect x="588.7272" y="154" width="67.8" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="535.4" y="174.5" font-size="13" font-weight="400" fill="#59636e">JWT</text></g><g class="rise" style="animation-delay:900ms">
+      <rect x="588.7272" y="154" width="67.8" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="603.7" y="174.5" font-size="13" font-weight="400" fill="#6f685e">Multer</text></g>
-    <line x1="28" y1="196" x2="962" y2="196" stroke="#f3eee6"/><text x="28" y="223" font-size="11" fill="#a39b8f" class="mono fade">DATABASE</text>
+      <text x="603.7" y="174.5" font-size="13" font-weight="400" fill="#59636e">Multer</text></g>
+    <line x1="28" y1="196" x2="962" y2="196" stroke="#eef1f4"/><text x="28" y="223" font-size="11" fill="#8c959f" class="mono fade">DATABASE</text>
     <g class="rise" style="animation-delay:945ms">
-      <rect x="210" y="202" width="105.5" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="224" cy="218" r="3" fill="#c26a12"/>
-      <text x="233.0" y="222.5" font-size="13" font-weight="700" fill="#1f1b16">PostgreSQL</text></g><g class="rise" style="animation-delay:990ms">
-      <rect x="325.5144" y="202" width="76.4" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="339.5144" cy="218" r="3" fill="#c26a12"/>
-      <text x="348.5" y="222.5" font-size="13" font-weight="700" fill="#1f1b16">MySQL</text></g>
-    <line x1="413.95300000000003" y1="208" x2="413.95300000000003" y2="228" stroke="#e7e0d4"/>
+      <rect x="210" y="202" width="105.5" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="224" cy="218" r="3" fill="#2f5f98"/>
+      <text x="233.0" y="222.5" font-size="13" font-weight="700" fill="#1f2328">PostgreSQL</text></g><g class="rise" style="animation-delay:990ms">
+      <rect x="325.5144" y="202" width="76.4" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="339.5144" cy="218" r="3" fill="#2f5f98"/>
+      <text x="348.5" y="222.5" font-size="13" font-weight="700" fill="#1f2328">MySQL</text></g>
+    <line x1="413.95300000000003" y1="208" x2="413.95300000000003" y2="228" stroke="#d8dee4"/>
     <g class="rise" style="animation-delay:1035ms">
-      <rect x="427.95300000000003" y="202" width="70.8" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <rect x="427.95300000000003" y="202" width="70.8" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="443.0" y="222.5" font-size="13" font-weight="400" fill="#6f685e">SQLite</text></g><g class="rise" style="animation-delay:1080ms">
-      <rect x="508.773" y="202" width="81.2" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="443.0" y="222.5" font-size="13" font-weight="400" fill="#59636e">SQLite</text></g><g class="rise" style="animation-delay:1080ms">
+      <rect x="508.773" y="202" width="81.2" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="523.8" y="222.5" font-size="13" font-weight="400" fill="#6f685e">Firebase</text></g>
-    <line x1="28" y1="244" x2="962" y2="244" stroke="#f3eee6"/><text x="28" y="271" font-size="11" fill="#a39b8f" class="mono fade">INTEGRASI &amp; TOOLS</text>
+      <text x="523.8" y="222.5" font-size="13" font-weight="400" fill="#59636e">Firebase</text></g>
+    <line x1="28" y1="244" x2="962" y2="244" stroke="#eef1f4"/><text x="28" y="271" font-size="11" fill="#8c959f" class="mono fade">INTEGRASI &amp; TOOLS</text>
     <g class="rise" style="animation-delay:1125ms">
-      <rect x="210" y="250" width="84.7" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="224" cy="266" r="3" fill="#c26a12"/>
-      <text x="233.0" y="270.5" font-size="13" font-weight="700" fill="#1f1b16">Midtrans</text></g><g class="rise" style="animation-delay:1170ms">
-      <rect x="304.7066" y="250" width="120.7" height="32" rx="16" fill="#c26a12" fill-opacity="0.14" stroke="#c26a12" stroke-opacity="0.55"/>
-      <circle cx="318.7066" cy="266" r="3" fill="#c26a12"/>
-      <text x="327.7" y="270.5" font-size="13" font-weight="700" fill="#1f1b16">Google ML Kit</text></g>
-    <line x1="437.379" y1="256" x2="437.379" y2="276" stroke="#e7e0d4"/>
+      <rect x="210" y="250" width="84.7" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="224" cy="266" r="3" fill="#2f5f98"/>
+      <text x="233.0" y="270.5" font-size="13" font-weight="700" fill="#1f2328">Midtrans</text></g><g class="rise" style="animation-delay:1170ms">
+      <rect x="304.7066" y="250" width="120.7" height="32" rx="16" fill="#2f5f98" fill-opacity="0.14" stroke="#2f5f98" stroke-opacity="0.55"/>
+      <circle cx="318.7066" cy="266" r="3" fill="#2f5f98"/>
+      <text x="327.7" y="270.5" font-size="13" font-weight="700" fill="#1f2328">Google ML Kit</text></g>
+    <line x1="437.379" y1="256" x2="437.379" y2="276" stroke="#d8dee4"/>
     <g class="rise" style="animation-delay:1215ms">
-      <rect x="451.379" y="250" width="99.9" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <rect x="451.379" y="250" width="99.9" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="466.4" y="270.5" font-size="13" font-weight="400" fill="#6f685e">Git &amp; GitHub</text></g><g class="rise" style="animation-delay:1260ms">
-      <rect x="561.319" y="250" width="75.5" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="466.4" y="270.5" font-size="13" font-weight="400" fill="#59636e">Git &amp; GitHub</text></g><g class="rise" style="animation-delay:1260ms">
+      <rect x="561.319" y="250" width="75.5" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="576.3" y="270.5" font-size="13" font-weight="400" fill="#6f685e">XAMPP</text></g><g class="rise" style="animation-delay:1305ms">
-      <rect x="646.819" y="250" width="67.4" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="576.3" y="270.5" font-size="13" font-weight="400" fill="#59636e">XAMPP</text></g><g class="rise" style="animation-delay:1305ms">
+      <rect x="646.819" y="250" width="67.4" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="661.8" y="270.5" font-size="13" font-weight="400" fill="#6f685e">Vercel</text></g><g class="rise" style="animation-delay:1350ms">
-      <rect x="724.259" y="250" width="68.7" height="32" rx="16" fill="#f7f2ea" fill-opacity="1" stroke="#e7e0d4" stroke-opacity="1"/>
+      <text x="661.8" y="270.5" font-size="13" font-weight="400" fill="#59636e">Vercel</text></g><g class="rise" style="animation-delay:1350ms">
+      <rect x="724.259" y="250" width="68.7" height="32" rx="16" fill="#f6f8fa" fill-opacity="1" stroke="#d8dee4" stroke-opacity="1"/>
       
-      <text x="739.3" y="270.5" font-size="13" font-weight="400" fill="#6f685e">Netlify</text></g>
+      <text x="739.3" y="270.5" font-size="13" font-weight="400" fill="#59636e">Netlify</text></g>
     
 </svg>

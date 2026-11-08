@@ -6,10 +6,10 @@
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
 <g class="in">
-  <rect x="0.5" y="0.5" width="235" height="37" rx="18.5" fill="#181b21" stroke="#262a33"/>
-  <text x="16" y="23.5" font-size="10.5" fill="#8f8a80" letter-spacing="2" font-family="Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace">APLIKASI</text>
-  <line x1="90.86480000000002" y1="12" x2="90.86480000000002" y2="26" stroke="#262a33"/>
-  <text x="102.86480000000002" y="24" font-size="14" font-weight="600" fill="#ece6da" font-family="'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif">Jurnal Trading</text>
-  <path transform="translate(204.6 13)" d="M2 10 L10 2 M4 2 H10 V8" fill="none" stroke="#f2a03d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="0.5" y="0.5" width="235" height="37" rx="18.5" fill="#151b23" stroke="#2a313c"/>
+  <text x="16" y="23.5" font-size="10.5" fill="#8b949e" letter-spacing="2" font-family="Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace">APLIKASI</text>
+  <line x1="90.86480000000002" y1="12" x2="90.86480000000002" y2="26" stroke="#2a313c"/>
+  <text x="102.86480000000002" y="24" font-size="14" font-weight="600" fill="#e6edf3" font-family="'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif">Jurnal Trading</text>
+  <path transform="translate(204.6 13)" d="M2 10 L10 2 M4 2 H10 V8" fill="none" stroke="#6ca0dc" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </svg>

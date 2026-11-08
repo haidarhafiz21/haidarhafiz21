@@ -3,13 +3,13 @@
 <defs>
   <clipPath id="tclip"><rect x="74" y="10" width="128.92560000000003" height="44"/></clipPath>
   <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#ff6b5a" stop-opacity="0"/><stop offset=".5" stop-color="#ff6b5a"/><stop offset="1" stop-color="#ff6b5a" stop-opacity="0"/>
+    <stop offset="0" stop-color="#6ca0dc" stop-opacity="0"/><stop offset=".5" stop-color="#6ca0dc"/><stop offset="1" stop-color="#6ca0dc" stop-opacity="0"/>
   </linearGradient>
   <clipPath id="lclip"><rect x="210.92560000000003" y="38" width="649.4744" height="6"/></clipPath>
 </defs>
 <style>
   text { font-family: 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
-  .no { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 700; fill: #f2a03d; stroke: #f2a03d; stroke-width: 1;
+  .no { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 700; fill: #6ca0dc; stroke: #6ca0dc; stroke-width: 1;
         stroke-dasharray: 160; stroke-dashoffset: 0; animation: ink 1.8s cubic-bezier(.65,0,.35,1) backwards; }
   .ttl { animation: up 1s .35s cubic-bezier(.16,1,.3,1) backwards; }
   .ln { animation: draw 1.4s .55s cubic-bezier(.65,0,.35,1) backwards; }
@@ -25,8 +25,8 @@
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .sw { display: none; } }
 </style>
 <text x="2" y="50" font-size="40" class="no">01</text>
-<g clip-path="url(#tclip)"><text x="78" y="50" font-size="28" font-weight="800" fill="#ece6da" letter-spacing="-.5" class="ttl">Tentang</text></g>
-<line x1="210.92560000000003" y1="41" x2="860.4" y2="41" stroke="#262a33" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" class="ln"/>
-<circle cx="860.4" cy="41" r="3.5" fill="#ff6b5a" class="dot"/>
-<text x="986" y="45" font-size="11" fill="#8f8a80" text-anchor="end" letter-spacing="2" font-family="Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace" class="tag">PROFIL · 01/05</text>
+<g clip-path="url(#tclip)"><text x="78" y="50" font-size="28" font-weight="800" fill="#e6edf3" letter-spacing="-.5" class="ttl">Tentang</text></g>
+<line x1="210.92560000000003" y1="41" x2="860.4" y2="41" stroke="#2a313c" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" class="ln"/>
+<circle cx="860.4" cy="41" r="3" fill="#6e7681" class="dot"/>
+<text x="986" y="45" font-size="11" fill="#8b949e" text-anchor="end" letter-spacing="2" font-family="Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace" class="tag">PROFIL · 01/05</text>
 </svg>
