@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg?v=2" alt="A. Haidar Hafiz — merancang &amp; membangun aplikasi web dan mobile" width="100%">
+  <img src="assets/banner.svg?v=3" alt="A. Haidar Hafiz — merancang &amp; membangun aplikasi web dan mobile" width="100%">
 </p>
 
 <p align="center">
@@ -10,7 +10,11 @@
 
 <br>
 
-### 01 — Tentang
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-dark.svg?v=1">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-light.svg?v=1" alt="01 — Tentang" width="100%">
+</picture>
+
 
 Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile secara menyeluruh: antarmuka, REST API, autentikasi, dan database, sampai integrasi pembayaran **Midtrans** dan **Google ML Kit**.
 
@@ -21,7 +25,11 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 
 <br>
 
-### 02 — Keahlian
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-dark.svg?v=1">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-light.svg?v=1" alt="02 — Keahlian" width="100%">
+</picture>
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/stack-dark.svg?v=2">
@@ -44,7 +52,11 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 
 <br>
 
-### 03 — Aktivitas
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-dark.svg?v=1">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-light.svg?v=1" alt="03 — Aktivitas" width="100%">
+</picture>
+
 
 <p align="center">
   <picture>
@@ -71,7 +83,11 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 
 <br>
 
-### 04 — Proyek
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-dark.svg?v=1">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-light.svg?v=1" alt="04 — Proyek" width="100%">
+</picture>
+
 
 Sebagian besar kode sumber disimpan privat.
 

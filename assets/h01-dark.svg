@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="72" viewBox="0 0 990 72" role="img" aria-label="01 — Tentang">
+<title>01 — Tentang</title>
+<defs>
+  <clipPath id="tclip"><rect x="74" y="10" width="128.92560000000003" height="44"/></clipPath>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ff6b5a" stop-opacity="0"/><stop offset=".5" stop-color="#ff6b5a"/><stop offset="1" stop-color="#ff6b5a" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="lclip"><rect x="210.92560000000003" y="38" width="649.4744" height="6"/></clipPath>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+  .no { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 700; fill: #f2a03d; stroke: #f2a03d; stroke-width: 1;
+        stroke-dasharray: 160; stroke-dashoffset: 0; animation: ink 1.8s cubic-bezier(.65,0,.35,1) backwards; }
+  .ttl { animation: up 1s .35s cubic-bezier(.16,1,.3,1) backwards; }
+  .ln { animation: draw 1.4s .55s cubic-bezier(.65,0,.35,1) backwards; }
+  .sw { animation: sweep 4.5s 2s cubic-bezier(.45,0,.55,1) infinite backwards; }
+  .tag { animation: fade .8s 1.2s ease-out backwards; }
+  .dot { transform-box: fill-box; transform-origin: center; animation: pop .6s 1.6s cubic-bezier(.34,1.56,.64,1) backwards; }
+  @keyframes ink { 0% { stroke-dashoffset: 160; fill-opacity: 0; } 65% { stroke-dashoffset: 0; fill-opacity: 0; } 100% { fill-opacity: 1; } }
+  @keyframes up { from { transform: translateY(46px); } }
+  @keyframes draw { from { stroke-dashoffset: 1; } }
+  @keyframes sweep { from { transform: translateX(-160px); } to { transform: translateX(809px); } }
+  @keyframes fade { from { opacity: 0; transform: translateX(8px); } }
+  @keyframes pop { from { transform: scale(0); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .sw { display: none; } }
+</style>
+<text x="2" y="50" font-size="40" class="no">01</text>
+<g clip-path="url(#tclip)"><text x="78" y="50" font-size="28" font-weight="800" fill="#ece6da" letter-spacing="-.5" class="ttl">Tentang</text></g>
+<line x1="210.92560000000003" y1="41" x2="860.4" y2="41" stroke="#262a33" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" class="ln"/>
+<g clip-path="url(#lclip)"><rect x="210.92560000000003" y="39.5" width="160" height="3" fill="url(#sweep)" class="sw"/></g>
+<circle cx="860.4" cy="41" r="3.5" fill="#ff6b5a" class="dot"/>
+<text x="986" y="45" font-size="11" fill="#8f8a80" text-anchor="end" letter-spacing="2" font-family="Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace" class="tag">PROFIL · 01/04</text>
+</svg>

@@ -124,6 +124,57 @@ ${rows}`;
   .rise { animation-duration: .8s; }`);
 }
 
+/* ---------------- Judul bagian bernomor (animasi) ---------------- */
+const SECTIONS = [
+  ["01", "Tentang", "PROFIL"],
+  ["02", "Keahlian", "TEKNOLOGI"],
+  ["03", "Aktivitas", "GITHUB"],
+  ["04", "Proyek", "KARYA"],
+];
+function sectionHeader([no, title, tag], idx, t) {
+  const W = 990, H = 72, base = 50;
+  const titleX = 78, titleW = textW(title, 28, true);
+  const lineX1 = titleX + titleW + 24;
+  const tagText = `${tag} · ${no}/${String(SECTIONS.length).padStart(2, "0")}`;
+  const lineX2 = W - textW(tagText, 11) * 1.25 - 24;
+  const label = `${no} — ${title}`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">
+<title>${esc(label)}</title>
+<defs>
+  <clipPath id="tclip"><rect x="${titleX - 4}" y="10" width="${titleW + 20}" height="${base + 4 - 10}"/></clipPath>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="${t.accent2}" stop-opacity="0"/><stop offset=".5" stop-color="${t.accent2}"/><stop offset="1" stop-color="${t.accent2}" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="lclip"><rect x="${lineX1}" y="${base - 12}" width="${lineX2 - lineX1}" height="6"/></clipPath>
+</defs>
+<style>
+  text { font-family: ${SANS}; }
+  .no { font-family: ${SERIF}; font-style: italic; font-weight: 700; fill: ${t.accent}; stroke: ${t.accent}; stroke-width: 1;
+        stroke-dasharray: 160; stroke-dashoffset: 0; animation: ink 1.8s cubic-bezier(.65,0,.35,1) backwards; }
+  .ttl { animation: up 1s .35s cubic-bezier(.16,1,.3,1) backwards; }
+  .ln { animation: draw 1.4s .55s cubic-bezier(.65,0,.35,1) backwards; }
+  .sw { animation: sweep 4.5s 2s cubic-bezier(.45,0,.55,1) infinite backwards; }
+  .tag { animation: fade .8s 1.2s ease-out backwards; }
+  .dot { transform-box: fill-box; transform-origin: center; animation: pop .6s 1.6s cubic-bezier(.34,1.56,.64,1) backwards; }
+  @keyframes ink { 0% { stroke-dashoffset: 160; fill-opacity: 0; } 65% { stroke-dashoffset: 0; fill-opacity: 0; } 100% { fill-opacity: 1; } }
+  @keyframes up { from { transform: translateY(46px); } }
+  @keyframes draw { from { stroke-dashoffset: 1; } }
+  @keyframes sweep { from { transform: translateX(-160px); } to { transform: translateX(${Math.round(lineX2 - lineX1 + 160)}px); } }
+  @keyframes fade { from { opacity: 0; transform: translateX(8px); } }
+  @keyframes pop { from { transform: scale(0); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .sw { display: none; } }
+</style>
+<text x="2" y="${base}" font-size="40" class="no">${no}</text>
+<g clip-path="url(#tclip)"><text x="${titleX}" y="${base}" font-size="28" font-weight="800" fill="${t.text}" letter-spacing="-.5" class="ttl">${esc(title)}</text></g>
+<line x1="${lineX1}" y1="${base - 9}" x2="${lineX2}" y2="${base - 9}" stroke="${t.border}" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" class="ln"/>
+<g clip-path="url(#lclip)"><rect x="${lineX1}" y="${base - 10.5}" width="160" height="3" fill="url(#sweep)" class="sw"/></g>
+<circle cx="${lineX2}" cy="${base - 9}" r="3.5" fill="${t.accent2}" class="dot"/>
+<text x="${W - 4}" y="${base - 5}" font-size="11" fill="${t.muted}" text-anchor="end" letter-spacing="2" font-family="${MONO}" class="tag">${esc(tagText)}</text>
+</svg>`;
+}
+
 fs.writeFileSync("assets/banner.svg", banner());
+for (const [mode, t] of Object.entries(THEMES))
+  SECTIONS.forEach((s, k) => fs.writeFileSync(`assets/h${s[0]}-${mode}.svg`, sectionHeader(s, k, t)));
 for (const [mode, t] of Object.entries(THEMES)) fs.writeFileSync(`assets/stack-${mode}.svg`, stackCard(t));
 console.log("ok");
