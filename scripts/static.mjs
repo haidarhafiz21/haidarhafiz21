@@ -172,7 +172,38 @@ function sectionHeader([no, title, tag], idx, t) {
 </svg>`;
 }
 
+/* ---------------- Tombol tautan di bawah banner ---------------- */
+const LINKS = [
+  ["venus", "WEBSITE", "Venus Digital", true],
+  ["jurnal", "APLIKASI", "Jurnal Trading", true],
+  ["lokasi", "LOKASI", "Pamekasan, Madura", false],
+];
+function linkPill([, label, value, ext], t) {
+  const H = 38, pad = 16;
+  const lw = textW(label, 10.5) * 1.32; // huruf mono + jarak antarhuruf
+  const vw = textW(value, 14, true) * 0.94;
+  const W = Math.round(pad + lw + 22 + vw + (ext ? 24 : 0) + pad);
+  const vx = pad + lw + 22;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label + ": " + value)}">
+<title>${esc(label + ": " + value)}</title>
+<style>
+  .in { animation: in .7s cubic-bezier(.16,1,.3,1) backwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(6px); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<g class="in">
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="${(H - 1) / 2}" fill="${t.chip}" stroke="${t.border}"/>
+  <text x="${pad}" y="23.5" font-size="10.5" fill="${t.muted}" letter-spacing="2" font-family="${MONO}">${esc(label)}</text>
+  <line x1="${pad + lw + 10}" y1="12" x2="${pad + lw + 10}" y2="26" stroke="${t.border}"/>
+  <text x="${vx}" y="24" font-size="14" font-weight="600" fill="${t.text}" font-family="${SANS}">${esc(value)}</text>
+  ${ext ? `<path transform="translate(${(vx + vw + 9).toFixed(1)} 13)" d="M2 10 L10 2 M4 2 H10 V8" fill="none" stroke="${t.accent}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>` : ""}
+</g>
+</svg>`;
+}
+
 fs.writeFileSync("assets/banner.svg", banner());
+for (const [mode, t] of Object.entries(THEMES))
+  LINKS.forEach((l) => fs.writeFileSync(`assets/link-${l[0]}-${mode}.svg`, linkPill(l, t)));
 for (const [mode, t] of Object.entries(THEMES))
   SECTIONS.forEach((s, k) => fs.writeFileSync(`assets/h${s[0]}-${mode}.svg`, sectionHeader(s, k, t)));
 for (const [mode, t] of Object.entries(THEMES)) fs.writeFileSync(`assets/stack-${mode}.svg`, stackCard(t));

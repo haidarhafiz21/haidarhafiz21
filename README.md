@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="assets/banner.svg?v=4" alt="A. Haidar Hafiz — merancang &amp; membangun aplikasi web dan mobile" width="100%">
+  <img src="assets/banner.svg?v=5" alt="A. Haidar Hafiz — merancang &amp; membangun aplikasi web dan mobile" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://haidarhafiz21.github.io/venusdigital/">Venus Digital ↗</a>
-  &nbsp;·&nbsp; Pamekasan, Madura
-  &nbsp;·&nbsp; <img src="https://komarev.com/ghpvc/?username=haidarhafiz21&label=dilihat&color=c26a12&style=flat-square" alt="Jumlah kunjungan profil" align="center">
+  <a href="https://haidarhafiz21.github.io/venusdigital/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-dark.svg?v=1"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-light.svg?v=1" alt="Website: Venus Digital"></picture></a>
+  <a href="https://haidarhafiz21.github.io/jurnal-trading-app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-dark.svg?v=1"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-light.svg?v=1" alt="Aplikasi: Jurnal Trading"></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-dark.svg?v=1"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-light.svg?v=1" alt="Lokasi: Pamekasan, Madura"></picture>
 </p>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-dark.svg?v=3">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-light.svg?v=3" alt="01 — Tentang" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-dark.svg?v=4">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-light.svg?v=4" alt="01 — Tentang" width="100%">
 </picture>
 
 Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile secara menyeluruh: antarmuka, REST API, autentikasi, dan database, sampai integrasi pembayaran **Midtrans** dan **Google ML Kit**.
@@ -25,8 +25,8 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-dark.svg?v=3">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-light.svg?v=3" alt="02 — Keahlian" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-dark.svg?v=4">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-light.svg?v=4" alt="02 — Keahlian" width="100%">
 </picture>
 
 <picture>
@@ -51,8 +51,8 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-dark.svg?v=3">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-light.svg?v=3" alt="03 — Proyek" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-dark.svg?v=4">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-light.svg?v=4" alt="03 — Proyek" width="100%">
 </picture>
 
 <p align="center">
@@ -99,8 +99,8 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-dark.svg?v=3">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-light.svg?v=3" alt="04 — Perjalanan" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-dark.svg?v=4">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-light.svg?v=4" alt="04 — Perjalanan" width="100%">
 </picture>
 
 <picture>
@@ -111,8 +111,8 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h05-dark.svg?v=2">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h05-light.svg?v=2" alt="05 — Aktivitas" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h05-dark.svg?v=3">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h05-light.svg?v=3" alt="05 — Aktivitas" width="100%">
 </picture>
 
 <picture>
@@ -125,3 +125,5 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 <p align="center">
   <img src="assets/footer.svg?v=2" alt="Terima kasih sudah mampir. Terbuka untuk tawaran kerja dan proyek freelance." width="100%">
 </p>
+
+<p align="right"><img src="https://komarev.com/ghpvc/?username=haidarhafiz21&label=dilihat&color=c26a12&style=flat-square" alt="Jumlah kunjungan profil"></p>

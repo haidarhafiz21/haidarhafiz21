@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="38" viewBox="0 0 236 38" role="img" aria-label="APLIKASI: Jurnal Trading">
+<title>APLIKASI: Jurnal Trading</title>
+<style>
+  .in { animation: in .7s cubic-bezier(.16,1,.3,1) backwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(6px); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<g class="in">
+  <rect x="0.5" y="0.5" width="235" height="37" rx="18.5" fill="#f7f2ea" stroke="#e7e0d4"/>
+  <text x="16" y="23.5" font-size="10.5" fill="#6f685e" letter-spacing="2" font-family="Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace">APLIKASI</text>
+  <line x1="90.86480000000002" y1="12" x2="90.86480000000002" y2="26" stroke="#e7e0d4"/>
+  <text x="102.86480000000002" y="24" font-size="14" font-weight="600" fill="#1f1b16" font-family="'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif">Jurnal Trading</text>
+  <path transform="translate(204.6 13)" d="M2 10 L10 2 M4 2 H10 V8" fill="none" stroke="#c26a12" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
