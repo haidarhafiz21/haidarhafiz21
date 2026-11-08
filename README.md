@@ -131,4 +131,4 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
   <img src="assets/footer.svg?v=3" alt="Terima kasih sudah mampir. Terbuka untuk tawaran kerja dan proyek freelance." width="100%">
 </p>
 
-<p align="right"><img src="https://komarev.com/ghpvc/?username=haidarhafiz21&label=dilihat&color=c26a12&style=flat-square" alt="Jumlah kunjungan profil"></p>
+<p align="right"><img src="https://komarev.com/ghpvc/?username=haidarhafiz21&label=dilihat&color=2f5f98&style=flat-square" alt="Jumlah kunjungan profil"></p>
