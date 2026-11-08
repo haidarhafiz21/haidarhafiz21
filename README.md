@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="A. Haidar Hafiz — merancang &amp; membangun aplikasi web dan mobile" width="100%">
+  <img src="assets/banner.svg?v=2" alt="A. Haidar Hafiz — merancang &amp; membangun aplikasi web dan mobile" width="100%">
 </p>
 
 <p align="center">
@@ -24,8 +24,8 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 ### 02 — Keahlian
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/stack-dark.svg">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/stack-light.svg" alt="Keahlian — Web: HTML, CSS, JavaScript; Mobile: Flutter, Dart; Backend: Node.js, Express.js; Database: PostgreSQL, MySQL; Integrasi: Midtrans, Google ML Kit" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/stack-dark.svg?v=2">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/stack-light.svg?v=2" alt="Keahlian — Web: HTML, CSS, JavaScript; Mobile: Flutter, Dart; Backend: Node.js, Express.js; Database: PostgreSQL, MySQL; Integrasi: Midtrans, Google ML Kit" width="100%">
 </picture>
 
 <details>
@@ -48,24 +48,24 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/stats-dark.svg">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/stats-light.svg" alt="Ringkasan kontribusi" width="49%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/stats-dark.svg?v=2">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/stats-light.svg?v=2" alt="Ringkasan kontribusi" width="49%">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/langs-dark.svg">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/langs-light.svg" alt="Bahasa yang sering dipakai" width="49%">
-  </picture>
-</p>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/streak-dark.svg">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/streak-light.svg" alt="Streak kontribusi" width="99%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/langs-dark.svg?v=2">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/langs-light.svg?v=2" alt="Bahasa yang sering dipakai" width="49%">
   </picture>
 </p>
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/activity-dark.svg">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/activity-light.svg" alt="Grafik kontribusi 31 hari terakhir" width="99%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/streak-dark.svg?v=2">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/streak-light.svg?v=2" alt="Streak kontribusi" width="99%">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/activity-dark.svg?v=2">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/activity-light.svg?v=2" alt="Grafik kontribusi 31 hari terakhir" width="99%">
   </picture>
 </p>
 
