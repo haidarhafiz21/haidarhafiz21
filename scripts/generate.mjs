@@ -4,7 +4,7 @@
 //         CARDS=langs untuk menghitung ulang bahasa (butuh token yang bisa membaca repo privat)
 import fs from "node:fs";
 import path from "node:path";
-import { THEMES, esc, frame } from "./theme.mjs";
+import { THEMES, esc, frame, settle } from "./theme.mjs";
 
 const LOGIN = process.env.LOGIN || "haidarhafiz21";
 const OUT = process.env.OUT || "dist";
@@ -147,7 +147,7 @@ function overviewCard(t, langs) {
     const x = cx0 + k * slot + (slot - bw) / 2, last = k === weeks.length - 1;
     if (!w.n) return `<rect x="${x.toFixed(1)}" y="${cyBase - 1.5}" width="${bw.toFixed(1)}" height="1.5" fill="${t.border}"/>`;
     const y = yv(w.n);
-    return `<rect class="bar" style="animation-delay:${300 + k * 12}ms" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${(cyBase - y).toFixed(1)}" rx="1.5" fill="${last ? t.accent : t.text}" fill-opacity="${last ? 1 : 0.72}"/>`;
+    return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${(cyBase - y).toFixed(1)}" rx="1.5" fill="${last ? t.accent : t.text}" fill-opacity="${last ? 1 : 0.72}"/>`;
   }).join("");
   const grid = [0.5, 1].map((f) => `<line x1="${cx0}" y1="${yv(nice * f).toFixed(1)}" x2="${cx1}" y2="${yv(nice * f).toFixed(1)}" stroke="${t.grid}" stroke-dasharray="2 4"/>
 <text x="${cx1 + 6}" y="${(yv(nice * f) + 3.5).toFixed(1)}" font-size="10" fill="${t.faint}">${num(nice * f)}</text>`).join("");
@@ -159,11 +159,11 @@ function overviewCard(t, langs) {
   const lx = 676, lbar0 = 770, lbar1 = 920, lmax = Math.max(...rows.map((r) => r.pct));
   const langSvg = rows.map((r, k) => {
     const y = 206 + k * 16.5, w = Math.max(2, (r.pct / lmax) * (lbar1 - lbar0));
-    return `<g class="rise" style="animation-delay:${450 + k * 60}ms">
+    return `<g>
   <rect x="${lx}" y="${y - 7.5}" width="7" height="7" rx="1.5" fill="${r.color}"/>
   <text x="${lx + 14}" y="${y}" font-size="11.5" fill="${t.text}" fill-opacity=".85">${esc(r.name)}</text>
   <rect x="${lbar0}" y="${y - 5}" width="${lbar1 - lbar0}" height="3" rx="1.5" fill="${t.track}"/>
-  <rect class="seg" style="animation-delay:${550 + k * 60}ms" x="${lbar0}" y="${y - 5}" width="${w.toFixed(1)}" height="3" rx="1.5" fill="${t.text}" fill-opacity=".6"/>
+  <rect x="${lbar0}" y="${y - 5}" width="${w.toFixed(1)}" height="3" rx="1.5" fill="${t.text}" fill-opacity=".6"/>
   <text x="${W - 28}" y="${y}" font-size="11" fill="${t.muted}" text-anchor="end">${r.pct.toFixed(1).replace(".", ",")}%</text>
 </g>`;
   }).join("");
@@ -177,12 +177,12 @@ ${kpiSvg}
 <text x="${cx0 + 152}" y="180" font-size="11.5" fill="${t.muted}">12 bulan terakhir</text>
 ${grid}
 <line x1="${cx0}" y1="${cyBase}" x2="${cx1}" y2="${cyBase}" stroke="${t.border}"/>
-${bars}
+<g class="bar" style="animation-delay:250ms">${bars}</g>
 ${monthTicks}
 <line x1="652" y1="168" x2="652" y2="${cyBase + 20}" stroke="${t.border}"/>
 <text x="${lx}" y="180" font-size="12.5" font-weight="600" fill="${t.text}">Bahasa</text>
 <text x="${lx + 52}" y="180" font-size="11.5" fill="${t.muted}">semua repositori</text>
-${langSvg}`;
+<g class="rise" style="animation-delay:400ms">${langSvg}</g>`;
   return frame(W, H, t, `Aktivitas GitHub ${LOGIN}: ${total} kontribusi, ${yearTotal} dalam 12 bulan terakhir, streak terpanjang ${longest} hari`, body);
 }
 
@@ -210,17 +210,17 @@ function trendCard(t) {
   const labels = pts.map((p, k) => (k % 5 === 0 || k === pts.length - 1)
     ? '<text x="' + x(k) + '" y="' + (B + 22) + '" font-size="11" fill="' + t.muted + '" text-anchor="middle">' + esc(fmt(p.date, false)) + '</text>' : "").join("");
   const dots = xy.map(([px, py], k) => pts[k].n > 0
-    ? '<circle cx="' + px.toFixed(1) + '" cy="' + py.toFixed(1) + '" r="3" fill="' + t.accent + '" class="fade" style="animation-delay:' + (1 + k * 0.02).toFixed(2) + 's"/>' : "").join("");
+    ? '<circle cx="' + px.toFixed(1) + '" cy="' + py.toFixed(1) + '" r="3" fill="' + t.accent + '"/>' : "").join("");
   const peakTxt = peak.n > 0 ? '<text x="' + x(peak.k).toFixed(1) + '" y="' + (y(peak.n) - 12).toFixed(1) + '" font-size="11.5" fill="' + t.muted + '" text-anchor="' + (peak.k > pts.length - 4 ? "end" : "middle") + '" class="fade" style="animation-delay:1.3s"><tspan font-weight="700" fill="' + t.text + '">' + peak.n + '</tspan> · ' + esc(fmt(peak.date, false)) + '</text>' : "";
   const body = '<text x="28" y="38" font-size="11" fill="' + t.muted + '" class="mono">KONTRIBUSI HARIAN · 31 HARI TERAKHIR</text>' +
     '<text x="' + (W - 28) + '" y="38" font-size="12.5" fill="' + t.muted + '" text-anchor="end"><tspan font-weight="700" fill="' + t.text + '">' + num(sum) + '</tspan> kontribusi</text>' +
     grid +
     '<path d="' + d + " L" + R + "," + B + " L" + L + "," + B + ' Z" fill="' + t.accent + '" fill-opacity=".07" class="fade" style="animation-delay:.9s"/>' +
     '<path id="trendline" d="' + d + '" fill="none" stroke="' + t.accent + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" style="animation: draw 1.8s .2s cubic-bezier(.65,0,.35,1) backwards"/>' +
-    dots + peakTxt + labels +
+    '<g class="fade" style="animation-delay:1s">' + dots + '</g>' + peakTxt + labels +
     '<circle r="4" fill="' + t.bg + '" stroke="' + t.accent + '" stroke-width="2" opacity="0">' +
     '<animate attributeName="opacity" values="0;1" begin="2.2s" dur=".5s" fill="freeze"/>' +
-    '<animateMotion dur="10s" begin="2.2s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"><mpath href="#trendline"/></animateMotion></circle>';
+    '<animateMotion dur="12s" begin="2.2s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1;1" keyTimes="0;.4;1" keySplines=".45 0 .55 1;0 0 1 1"><mpath href="#trendline"/></animateMotion></circle>';
   return frame(W, H, t, "Kontribusi harian 31 hari terakhir " + LOGIN + ": " + sum + " kontribusi", body);
 }
 
@@ -229,7 +229,7 @@ fs.mkdirSync(OUT, { recursive: true });
 if (CARDS.includes("langs")) fs.writeFileSync(LANGS_FILE, JSON.stringify(await getLangs(), null, 1));
 const langs = JSON.parse(fs.readFileSync(LANGS_FILE, "utf8"));
 for (const [mode, t] of Object.entries(THEMES)) {
-  fs.writeFileSync(path.join(OUT, `overview-${mode}.svg`), overviewCard(t, langs));
-  fs.writeFileSync(path.join(OUT, `trend-${mode}.svg`), trendCard(t));
+  fs.writeFileSync(path.join(OUT, `overview-${mode}.svg`), settle(overviewCard(t, langs)));
+  fs.writeFileSync(path.join(OUT, `trend-${mode}.svg`), settle(trendCard(t)));
 }
 console.log(JSON.stringify({ total, yearTotal, activeDays, cur, longest, langs: langs.slice(0, 6).map((l) => `${l.name} ${l.pct}%`) }));

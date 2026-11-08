@@ -25,6 +25,23 @@ export function textW(s, size, bold = false) {
   return w * size * (bold ? 1.06 : 1);
 }
 
+// Geser semua animasi dalam SVG supaya baru mulai setelah halaman GitHub selesai sibuk memuat
+// (saat halaman baru dibuka, GitHub & semua gambar dimuat bersamaan sehingga animasi bisa patah-patah).
+export function settle(svg, ms = 1100) {
+  const add = (v, unit) => {
+    const total = (unit === "s" ? parseFloat(v) * 1000 : parseFloat(v)) + ms;
+    return `${Math.round(total)}ms`;
+  };
+  return svg
+    // animation-delay: 120ms / .3s
+    .replace(/animation-delay:\s*([\d.]+)(ms|s)/g, (m, v, u) => `animation-delay:${add(v, u)}`)
+    // shorthand: animation: nama durasi [jeda] ...
+    .replace(/animation:\s*([A-Za-z][\w-]*)\s+([\d.]+m?s)(\s+([\d.]+)(ms|s))?/g, (m, name, dur, hasDelay, dv, du) =>
+      hasDelay ? `animation: ${name} ${dur} ${add(dv, du)}` : `animation: ${name} ${dur} ${ms}ms`)
+    // SMIL: begin="2.2s"
+    .replace(/begin="([\d.]+)s"/g, (m, v) => `begin="${((parseFloat(v) * 1000 + ms) / 1000).toFixed(2)}s"`);
+}
+
 // Memecah teks menjadi beberapa baris sesuai lebar maksimum
 export function wrap(text, size, maxW, bold = false) {
   const lines = [];

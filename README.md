@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="assets/banner.svg?v=7" alt="A. Haidar Hafiz — merancang &amp; membangun aplikasi web dan mobile" width="100%">
+  <img src="assets/banner.svg?v=8" alt="A. Haidar Hafiz — merancang &amp; membangun aplikasi web dan mobile" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://haidarhafiz21.github.io/venusdigital/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-dark.svg?v=2"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-light.svg?v=2" alt="Website: Venus Digital"></picture></a>
-  <a href="https://haidarhafiz21.github.io/jurnal-trading-app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-dark.svg?v=2"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-light.svg?v=2" alt="Aplikasi: Jurnal Trading"></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-dark.svg?v=2"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-light.svg?v=2" alt="Lokasi: Pamekasan, Madura"></picture>
+  <a href="https://haidarhafiz21.github.io/venusdigital/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-dark.svg?v=3"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-light.svg?v=3" alt="Website: Venus Digital"></picture></a>
+  <a href="https://haidarhafiz21.github.io/jurnal-trading-app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-dark.svg?v=3"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-light.svg?v=3" alt="Aplikasi: Jurnal Trading"></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-dark.svg?v=3"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-light.svg?v=3" alt="Lokasi: Pamekasan, Madura"></picture>
 </p>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-dark.svg?v=5">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-light.svg?v=5" alt="01 — Tentang" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-dark.svg?v=6">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h01-light.svg?v=6" alt="01 — Tentang" width="100%">
 </picture>
 
 Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile secara menyeluruh: antarmuka, REST API, autentikasi, dan database, sampai integrasi pembayaran **Midtrans** dan **Google ML Kit**.
@@ -25,13 +25,13 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-dark.svg?v=5">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-light.svg?v=5" alt="02 — Keahlian" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-dark.svg?v=6">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h02-light.svg?v=6" alt="02 — Keahlian" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/stack-dark.svg?v=3">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/stack-light.svg?v=3" alt="Keahlian — Web: HTML, CSS, JavaScript; Mobile: Flutter, Dart; Backend: Node.js, Express.js; Database: PostgreSQL, MySQL; Integrasi: Midtrans, Google ML Kit" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/stack-dark.svg?v=4">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/stack-light.svg?v=4" alt="Keahlian — Web: HTML, CSS, JavaScript; Mobile: Flutter, Dart; Backend: Node.js, Express.js; Database: PostgreSQL, MySQL; Integrasi: Midtrans, Google ML Kit" width="100%">
 </picture>
 
 <details>
@@ -51,26 +51,26 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-dark.svg?v=5">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-light.svg?v=5" alt="03 — Proyek" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-dark.svg?v=6">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h03-light.svg?v=6" alt="03 — Proyek" width="100%">
 </picture>
 
 <p align="center">
   <a href="https://haidarhafiz21.github.io/venusdigital/"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-venus-dark.svg?v=4">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-venus-light.svg?v=4" alt="Venus Digital — toko online template Excel &amp; produk digital (live)" width="49%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-venus-dark.svg?v=5">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-venus-light.svg?v=5" alt="Venus Digital — toko online template Excel &amp; produk digital (live)" width="49%">
   </picture></a>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-perpus-dark.svg?v=4">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-perpus-light.svg?v=4" alt="Peminjaman Buku Perpustakaan — proyek akhir D3, aplikasi mobile untuk Kejaksaan Negeri Sumenep" width="49%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-perpus-dark.svg?v=5">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-perpus-light.svg?v=5" alt="Peminjaman Buku Perpustakaan — proyek akhir D3, aplikasi mobile untuk Kejaksaan Negeri Sumenep" width="49%">
   </picture>
   <a href="https://haidarhafiz21.github.io/jurnal-trading-app/"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jurnal-dark.svg?v=4">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jurnal-light.svg?v=4" alt="Jurnal Trading — versi desktop dan HP" width="49%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jurnal-dark.svg?v=5">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jurnal-light.svg?v=5" alt="Jurnal Trading — versi desktop dan HP" width="49%">
   </picture></a>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jatim-dark.svg?v=4">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jatim-light.svg?v=4" alt="JatimTIMES — portal berita, proyek magang" width="49%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jatim-dark.svg?v=5">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jatim-light.svg?v=5" alt="JatimTIMES — portal berita, proyek magang" width="49%">
   </picture>
 </p>
 
@@ -99,36 +99,36 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-dark.svg?v=5">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-light.svg?v=5" alt="04 — Perjalanan" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-dark.svg?v=6">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h04-light.svg?v=6" alt="04 — Perjalanan" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/journey-dark.svg?v=4">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/journey-light.svg?v=4" alt="Perjalanan: 2023 proyek web pertama; 2024 mulai ke backend; 2025 magang di Jatim Times Network dan proyek tim; 2026 lulus D3 dan merilis Venus Digital" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/journey-dark.svg?v=5">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/journey-light.svg?v=5" alt="Perjalanan: 2023 proyek web pertama; 2024 mulai ke backend; 2025 magang di Jatim Times Network dan proyek tim; 2026 lulus D3 dan merilis Venus Digital" width="100%">
 </picture>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h05-dark.svg?v=4">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h05-light.svg?v=4" alt="05 — Aktivitas" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h05-dark.svg?v=5">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/h05-light.svg?v=5" alt="05 — Aktivitas" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/overview-dark.svg?v=2">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/overview-light.svg?v=2" alt="Aktivitas GitHub: total kontribusi, 12 bulan terakhir, streak, kontribusi per minggu, dan bahasa yang dipakai" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/overview-dark.svg?v=3">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/overview-light.svg?v=3" alt="Aktivitas GitHub: total kontribusi, 12 bulan terakhir, streak, kontribusi per minggu, dan bahasa yang dipakai" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/trend-dark.svg?v=2">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/trend-light.svg?v=2" alt="Grafik kontribusi harian 31 hari terakhir" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/trend-dark.svg?v=3">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/trend-light.svg?v=3" alt="Grafik kontribusi harian 31 hari terakhir" width="100%">
 </picture>
 
 <br>
 
 <p align="center">
-  <img src="assets/footer.svg?v=3" alt="Terima kasih sudah mampir. Terbuka untuk tawaran kerja dan proyek freelance." width="100%">
+  <img src="assets/footer.svg?v=4" alt="Terima kasih sudah mampir. Terbuka untuk tawaran kerja dan proyek freelance." width="100%">
 </p>
 
 <p align="right"><img src="https://komarev.com/ghpvc/?username=haidarhafiz21&label=dilihat&color=2f5f98&style=flat-square" alt="Jumlah kunjungan profil"></p>

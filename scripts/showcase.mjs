@@ -1,7 +1,7 @@
 // Kartu proyek pilihan, linimasa perjalanan, dan penutup profil. Pakai: node scripts/showcase.mjs
 // Gaya: sederhana & profesional — warna netral, satu aksen, tanpa efek cahaya.
 import fs from "node:fs";
-import { THEMES, SANS, SERIF, MONO, esc, wrap, frame } from "./theme.mjs";
+import { THEMES, SANS, SERIF, MONO, esc, wrap, frame, settle } from "./theme.mjs";
 
 fs.mkdirSync("assets", { recursive: true });
 const GREEN = { dark: "#3fb950", light: "#1a7f37" };
@@ -10,10 +10,10 @@ const CSS = `
   .pop { transform-box: fill-box; transform-origin: center; animation: pop .6s cubic-bezier(.16,1,.3,1) backwards; }
   @keyframes pop { from { opacity: 0; transform: scale(.6); } }
   /* gerak pelan tanpa efek cahaya */
-  .live { animation: soft 2.8s ease-in-out infinite; }
-  .nudge { animation: nudge 3.2s cubic-bezier(.45,0,.55,1) infinite; }
-  @keyframes soft { 50% { opacity: .35; } }
-  @keyframes nudge { 0%, 60%, 100% { transform: translate(0, 0); } 75% { transform: translate(2.5px, -2.5px); } }`;
+  .live { animation: soft 5s 1.5s ease-in-out infinite; }
+  .nudge { animation: nudge 6s 2s cubic-bezier(.45,0,.55,1) infinite; }
+  @keyframes soft { 0%, 70%, 100% { opacity: 1; } 85% { opacity: .35; } }
+  @keyframes nudge { 0%, 84%, 100% { transform: translate(0, 0); } 92% { transform: translate(2.5px, -2.5px); } }`;
 
 /* =========================================================
    Kartu proyek (sederhana)
@@ -70,9 +70,9 @@ function timeline(t) {
   // Titik kecil yang berjalan dari tahun ke tahun, berhenti sebentar di tiap tahun
   const nx = JOURNEY.map((_, i) => x0 + i * (colW + 8) + 6);
   const seg = 100 / (JOURNEY.length * 2);
-  const frames = nx.map((x, i) => `${(i * 2 * seg).toFixed(1)}%, ${((i * 2 + 1) * seg - 4).toFixed(1)}% { transform: translateX(${(x - nx[0]).toFixed(1)}px); opacity: 1; }`).join(" ");
+  const frames = nx.map((x, i) => `${(i * 2 * seg).toFixed(1)}%, ${((i * 2 + 1) * seg + 4).toFixed(1)}% { transform: translateX(${(x - nx[0]).toFixed(1)}px); opacity: 1; }`).join(" ");
   const walker = `<style>@keyframes walk { ${frames} 100% { transform: translateX(${(nx[nx.length - 1] - nx[0]).toFixed(1)}px); opacity: 0; } }
-  .walker { animation: walk 11s 2.2s cubic-bezier(.65,0,.35,1) infinite backwards; }</style>
+  .walker { animation: walk 16s 2.2s cubic-bezier(.65,0,.35,1) infinite backwards; }</style>
 <circle cx="${nx[0]}" cy="${axisY}" r="2.6" fill="${t.accent}" class="walker"/>`;
   const nodes = JOURNEY.map(([year, title, detail], i) => {
     const x = x0 + i * (colW + 8), d = 0.4 + i * 0.25;
@@ -106,15 +106,14 @@ function footer() {
   for (let j = 0; j < 10; j++) {
     const base = 140 + j * 8, a1 = 8 + j * 1.3, a2 = 4 + (j % 3) * 1.4, k1 = 1 + (j % 2), k2 = 3 + (j % 3), ph = j * 0.6;
     let d = "";
-    for (let x = 0; x <= 2 * P; x += 12) d += (x ? " L" : "M") + x + "," + (base + a1 * Math.sin((2 * Math.PI * k1 * x) / P + ph) + a2 * Math.sin((2 * Math.PI * k2 * x) / P + ph * 1.3)).toFixed(1);
-    waves.push(`<path d="${d}" fill="none" stroke="#8fa3bf" stroke-width="1" stroke-opacity="${(0.06 + j * 0.025).toFixed(3)}" style="animation: ${j % 2 ? "flowB" : "flowA"} ${34 + j * 5}s linear infinite"/>`);
+    for (let x = 0; x <= 2 * P; x += 24) d += (x ? " L" : "M") + x + "," + (base + a1 * Math.sin((2 * Math.PI * k1 * x) / P + ph) + a2 * Math.sin((2 * Math.PI * k2 * x) / P + ph * 1.3)).toFixed(1);
+    waves.push(`<path d="${d}" fill="none" stroke="#8fa3bf" stroke-width="1" stroke-opacity="${(0.06 + j * 0.025).toFixed(3)}" style="animation: ${j % 2 ? "flowB" : "flowA"} ${34 + j * 5}s 1.4s linear infinite backwards"/>`);
   }
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Terima kasih sudah mampir. Terbuka untuk tawaran kerja dan proyek freelance.">
 <title>Terima kasih sudah mampir</title>
 <defs>
   <linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f141b"/><stop offset="1" stop-color="#17202b"/></linearGradient>
-  <linearGradient id="vf" x1="0" y1="0" x2="0" y2="1"><stop offset=".35" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#fff"/></linearGradient>
-  <mask id="m"><rect width="${W}" height="${H}" fill="url(#vf)"/></mask>
+  <linearGradient id="vf" x1="0" y1="0" x2="0" y2="1"><stop offset=".3" stop-color="#121922" stop-opacity="1"/><stop offset=".78" stop-color="#121922" stop-opacity="0"/></linearGradient>
   <clipPath id="card"><rect width="${W}" height="${H}" rx="20"/></clipPath>
 </defs>
 <style>
@@ -127,7 +126,8 @@ function footer() {
 </style>
 <g clip-path="url(#card)">
   <rect width="${W}" height="${H}" fill="url(#bgg)"/>
-  <g mask="url(#m)">${waves.join("")}</g>
+  <g>${waves.join("")}</g>
+  <rect width="${W}" height="${H}" fill="url(#vf)"/>
   <g class="in" style="animation-delay:.1s"><text x="600" y="88" font-size="36" fill="#f0f3f6" text-anchor="middle" font-family="${SERIF}" font-style="italic">Terima kasih sudah mampir.</text></g>
   <g class="in" style="animation-delay:.3s">
     <circle cx="430" cy="123" r="4.5" fill="#3fb950"/>
@@ -138,8 +138,8 @@ function footer() {
 }
 
 for (const [mode, t] of Object.entries(THEMES)) {
-  for (const p of PROJECTS) fs.writeFileSync(`assets/p-${p.file}-${mode}.svg`, projectCard(p, t, mode));
-  fs.writeFileSync(`assets/journey-${mode}.svg`, timeline(t));
+  for (const p of PROJECTS) fs.writeFileSync(`assets/p-${p.file}-${mode}.svg`, settle(projectCard(p, t, mode)));
+  fs.writeFileSync(`assets/journey-${mode}.svg`, settle(timeline(t)));
 }
-fs.writeFileSync("assets/footer.svg", footer());
+fs.writeFileSync("assets/footer.svg", settle(footer()));
 console.log("ok");

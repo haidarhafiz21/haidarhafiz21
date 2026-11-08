@@ -2,27 +2,21 @@
 <title>01 — Tentang</title>
 <defs>
   <clipPath id="tclip"><rect x="74" y="10" width="128.92560000000003" height="44"/></clipPath>
-  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#2f5f98" stop-opacity="0"/><stop offset=".5" stop-color="#2f5f98"/><stop offset="1" stop-color="#2f5f98" stop-opacity="0"/>
-  </linearGradient>
-  <clipPath id="lclip"><rect x="210.92560000000003" y="38" width="649.4744" height="6"/></clipPath>
 </defs>
 <style>
   text { font-family: 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
   .no { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 700; fill: #2f5f98; stroke: #2f5f98; stroke-width: 1;
-        stroke-dasharray: 160; stroke-dashoffset: 0; animation: ink 1.8s cubic-bezier(.65,0,.35,1) backwards; }
-  .ttl { animation: up 1s .35s cubic-bezier(.16,1,.3,1) backwards; }
-  .ln { animation: draw 1.4s .55s cubic-bezier(.65,0,.35,1) backwards; }
-  .sw { animation: sweep 4.5s 2s cubic-bezier(.45,0,.55,1) infinite backwards; }
-  .tag { animation: fade .8s 1.2s ease-out backwards; }
-  .dot { transform-box: fill-box; transform-origin: center; animation: pop .6s 1.6s cubic-bezier(.34,1.56,.64,1) backwards; }
-  @keyframes ink { 0% { stroke-dashoffset: 160; fill-opacity: 0; } 65% { stroke-dashoffset: 0; fill-opacity: 0; } 100% { fill-opacity: 1; } }
+        animation: noIn .9s 1100ms cubic-bezier(.16,1,.3,1) backwards; }
+  .ttl { animation: up 1s 1450ms cubic-bezier(.16,1,.3,1) backwards; }
+  .ln { animation: draw 1.4s 1650ms cubic-bezier(.65,0,.35,1) backwards; }
+  .tag { animation: fade .8s 2300ms ease-out backwards; }
+  .dot { transform-box: fill-box; transform-origin: center; animation: pop .6s 2700ms cubic-bezier(.34,1.56,.64,1) backwards; }
+  @keyframes noIn { from { opacity: 0; transform: translateY(12px); } }
   @keyframes up { from { transform: translateY(46px); } }
   @keyframes draw { from { stroke-dashoffset: 1; } }
-  @keyframes sweep { from { transform: translateX(-160px); } to { transform: translateX(809px); } }
   @keyframes fade { from { opacity: 0; transform: translateX(8px); } }
   @keyframes pop { from { transform: scale(0); } }
-  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .sw { display: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
 <text x="2" y="50" font-size="40" class="no">01</text>
 <g clip-path="url(#tclip)"><text x="78" y="50" font-size="28" font-weight="800" fill="#1f2328" letter-spacing="-.5" class="ttl">Tentang</text></g>
