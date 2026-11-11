@@ -32,7 +32,8 @@ const now = new Date();
 const dayMap = new Map();
 for (let y = created.getUTCFullYear(); y <= now.getUTCFullYear(); y++) {
   const from = new Date(Math.max(Date.UTC(y, 0, 1), created.getTime()));
-  const to = new Date(Math.min(Date.UTC(y, 11, 31, 23, 59, 59), now.getTime()));
+  // +14 jam supaya hari ini menurut WIB (UTC+7) ikut terhitung sejak 00.00
+  const to = new Date(Math.min(Date.UTC(y, 11, 31, 23, 59, 59), now.getTime() + 14 * 3600e3));
   const d = await gql(`query($login:String!,$from:DateTime!,$to:DateTime!){ user(login:$login){
     contributionsCollection(from:$from,to:$to){ contributionCalendar{ weeks{ contributionDays{ date contributionCount } } } } } }`,
     { login: LOGIN, from: from.toISOString(), to: to.toISOString() });
