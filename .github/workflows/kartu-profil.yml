@@ -2,7 +2,7 @@ name: Perbarui kartu profil
 
 on:
   schedule:
-    - cron: "0 17 * * *" # setiap hari pukul 00.00 WIB
+    - cron: "0 * * * *" # setiap pergantian jam (termasuk 00.00 WIB)
   workflow_dispatch:
   push:
     branches: [main]
