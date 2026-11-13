@@ -17,9 +17,9 @@
 
 Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile secara menyeluruh: antarmuka, REST API, autentikasi, dan database, sampai integrasi pembayaran **Midtrans** dan **Google ML Kit**.
 
-- D3 Teknik Informatika, PENS PSDKU Sumenep (2026), IPK 3.46
-- Juara 2 Final Project Competition 2026, Teknik Informatika, PENS PSDKU Sumenep
-- Magang di Jatim Times Network, Malang
+- D3 Teknik Informatika,IPK 3.46
+- Juara 2 Final Project Competition 2026, Teknik Informatika
+- Magang di Jatim Times Network
 - PEPT 470
 
 <br>
