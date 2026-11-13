@@ -76,10 +76,6 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-unfollow-dark.svg?v=1">
     <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-unfollow-light.svg?v=1" alt="Cek Unfollow — periksa siapa yang tidak follow balik di Instagram (live)" width="49%">
   </picture></a>
-  <a href="https://haidarhafiz21.github.io/scanbarcodecepat/"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-ulasan-dark.svg?v=1">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-ulasan-light.svg?v=1" alt="Stand Ulasan — generator QR &amp; NFC ulasan Google untuk UMKM (live)" width="49%">
-  </picture></a>
   <a href="https://haidarhafiz21.github.io/kcm-pamekasan/"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-kcm-dark.svg?v=1">
     <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-kcm-light.svg?v=1" alt="KCM · Lihat dari Kursi — visualisasi kursi bioskop (live)" width="49%">
@@ -101,7 +97,7 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 | **Website Portofolio** | portofolio | Website portofolio pribadi, dibuat tanpa framework. | HTML, CSS, JavaScript, Netlify | 2026 |
 | **Jurnal Trading** | jurnal-trading, [jurnal-trading-app](https://github.com/haidarhafiz21/jurnal-trading-app) | Jurnal trading offline, versi desktop dan versi HP. | Node.js, SQLite | 2026 |
 | **Cek Unfollow** | [cek-unfollow](https://github.com/haidarhafiz21/cek-unfollow) · [website](https://haidarhafiz21.github.io/cek-unfollow/) | Periksa akun yang tidak follow balik, akun mutual, dan yang berhenti mengikuti di Instagram, langsung dari browser tanpa password. | HTML, CSS, JavaScript | 2026 |
-| **Stand Ulasan (QR & NFC)** | [scanbarcodecepat](https://github.com/haidarhafiz21/scanbarcodecepat) · [website](https://haidarhafiz21.github.io/scanbarcodecepat/) | Generator stand ulasan Google untuk UMKM: kartu QR, stiker NFC, dan halaman kelola stand. | HTML, JavaScript | 2026 |
+| **Stand Ulasan (QR & NFC)** | scanbarcodecepat | Generator stand ulasan Google untuk UMKM: kartu QR, stiker NFC, dan halaman kelola stand. | HTML, JavaScript | 2026 |
 | **KCM · Lihat dari Kursi** | [kcm-pamekasan](https://github.com/haidarhafiz21/kcm-pamekasan) · [website](https://haidarhafiz21.github.io/kcm-pamekasan/) | Visualisasi kursi bioskop: pilih studio dan kursi, lalu lihat layar dari posisi duduk. | HTML, CSS, JavaScript | 2026 |
 | **JatimTIMES** | JATIM-TIMES | Website portal berita, dikerjakan saat magang di Jatim Times Network. | React, Vite, Express.js, Bootstrap | 2025 |
 | **Pemesanan Ikan** | pemesanan_ikan, pemesanan1, frontendikan60-, backend60-, fullikan60- | Aplikasi pemesanan ikan dengan pembayaran Midtrans. | Flutter, Express.js, MySQL, Midtrans | 2025 |
