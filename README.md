@@ -72,24 +72,46 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jatim-dark.svg?v=5">
     <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jatim-light.svg?v=5" alt="JatimTIMES — portal berita, proyek magang" width="49%">
   </picture>
+  <a href="https://haidarhafiz21.github.io/cek-unfollow/"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-unfollow-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-unfollow-light.svg?v=1" alt="Cek Unfollow — periksa siapa yang tidak follow balik di Instagram (live)" width="49%">
+  </picture></a>
+  <a href="https://haidarhafiz21.github.io/scanbarcodecepat/"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-ulasan-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-ulasan-light.svg?v=1" alt="Stand Ulasan — generator QR &amp; NFC ulasan Google untuk UMKM (live)" width="49%">
+  </picture></a>
+  <a href="https://haidarhafiz21.github.io/kcm-pamekasan/"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-kcm-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-kcm-light.svg?v=1" alt="KCM · Lihat dari Kursi — visualisasi kursi bioskop (live)" width="49%">
+  </picture></a>
+  <a href="https://haidarhafiz21.github.io/Kelompok2_Bisahosting.github.io/"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-bisahosting-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-bisahosting-light.svg?v=1" alt="Bisahosting — website proyek kelompok (live)" width="49%">
+  </picture></a>
 </p>
 
 <details>
-<summary>Semua proyek (13) — sebagian besar kode sumber disimpan privat</summary>
+<summary>Semua proyek (19) — sebagian besar kode sumber disimpan privat</summary>
 <br>
 
 | Proyek | Repo | Keterangan | Teknologi | Tahun |
 |---|---|---|---|---|
 | **Digitalisasi Sistem Peminjaman Buku Perpustakaan pada Kejaksaan Negeri Sumenep Berbasis Mobile** | Flutter-PA, Backend-PA | Proyek akhir D3: kartu anggota ber-QR, scan barcode buku, dashboard admin. | Flutter, Express.js, PostgreSQL, ML Kit, Firebase, Midtrans | 2026 |
-| **Venus Digital** | [venusdigital](https://github.com/haidarhafiz21/venusdigital) · [website](https://haidarhafiz21.github.io/venusdigital/) | Toko online template Excel & produk digital: katalog, halaman produk, artikel, SEO, pemesanan via WhatsApp. | HTML, CSS, JavaScript, Node.js | 2026 |
+| **Venus Digital** | [venusdigital](https://github.com/haidarhafiz21/venusdigital) · venusdigital-produk · [website](https://haidarhafiz21.github.io/venusdigital/) | Toko online template Excel & produk digital: katalog, halaman produk, artikel, SEO, pemesanan via WhatsApp. File produk disimpan di repo privat. | HTML, CSS, JavaScript, Node.js | 2026 |
 | **Website Portofolio** | portofolio | Website portofolio pribadi, dibuat tanpa framework. | HTML, CSS, JavaScript, Netlify | 2026 |
 | **Jurnal Trading** | jurnal-trading, [jurnal-trading-app](https://github.com/haidarhafiz21/jurnal-trading-app) | Jurnal trading offline, versi desktop dan versi HP. | Node.js, SQLite | 2026 |
+| **Cek Unfollow** | [cek-unfollow](https://github.com/haidarhafiz21/cek-unfollow) · [website](https://haidarhafiz21.github.io/cek-unfollow/) | Periksa akun yang tidak follow balik, akun mutual, dan yang berhenti mengikuti di Instagram, langsung dari browser tanpa password. | HTML, CSS, JavaScript | 2026 |
+| **Stand Ulasan (QR & NFC)** | [scanbarcodecepat](https://github.com/haidarhafiz21/scanbarcodecepat) · [website](https://haidarhafiz21.github.io/scanbarcodecepat/) | Generator stand ulasan Google untuk UMKM: kartu QR, stiker NFC, dan halaman kelola stand. | HTML, JavaScript | 2026 |
+| **KCM · Lihat dari Kursi** | [kcm-pamekasan](https://github.com/haidarhafiz21/kcm-pamekasan) · [website](https://haidarhafiz21.github.io/kcm-pamekasan/) | Visualisasi kursi bioskop: pilih studio dan kursi, lalu lihat layar dari posisi duduk. | HTML, CSS, JavaScript | 2026 |
 | **JatimTIMES** | JATIM-TIMES | Website portal berita, dikerjakan saat magang di Jatim Times Network. | React, Vite, Express.js, Bootstrap | 2025 |
 | **Pemesanan Ikan** | pemesanan_ikan, pemesanan1, frontendikan60-, backend60-, fullikan60- | Aplikasi pemesanan ikan dengan pembayaran Midtrans. | Flutter, Express.js, MySQL, Midtrans | 2025 |
 | **LuLuSin** (proyek tim) | [LuLuSin-FrontEnd](https://github.com/haidarhafiz21/LuLuSin-FrontEnd), [mobile-lulusin](https://github.com/haidarhafiz21/mobile-lulusin) | Platform tryout online (admin, guru, siswa) versi web dan mobile, dikerjakan bersama tim. | React, Tailwind CSS, Flutter | 2025 |
 | **back** | back | Backend dengan halaman login dan undangan. | Express.js, MySQL | 2025 |
 | **framework_2** | framework_2 | Aplikasi web server-side dengan unggah file. | Express.js, EJS, MySQL | 2025 |
+| **Latihan Flutter** | flutter | Latihan awal membuat aplikasi Flutter. | Flutter, Dart | 2025 |
+| **cobagiel** | cobagiel | Repositori kosong. | – | 2025 |
 | **worksop_haidar** | worksop_haidar | Aplikasi CRUD data mahasiswa dan kategori. | Express.js, EJS, MySQL | 2024 |
+| **pemrograman_web** | pemrograman_web | Repositori kosong. | – | 2024 |
 | **Bisahosting** (proyek kelompok) | Kelompok2, [Kelompok2_Bisahosting](https://haidarhafiz21.github.io/Kelompok2_Bisahosting.github.io/) | Website dengan halaman beranda, tentang, dan kontak. | Pug, SCSS, HTML | 2023 |
 | **Website Profil UTS** | [haidarhafiz21.github.io](https://haidarhafiz21.github.io/) | Website profil untuk tugas UTS. | HTML, CSS | 2023 |
 | **latihan-web** | latihan-web | Latihan template website. | Pug, SCSS | 2023 |

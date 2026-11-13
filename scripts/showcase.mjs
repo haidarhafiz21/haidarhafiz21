@@ -31,6 +31,18 @@ export const PROJECTS = [
   { file: "jatim", tag: "MAGANG", year: "2025", title: "JatimTIMES",
     desc: "Website portal berita yang dikerjakan saat magang di Jatim Times Network, Malang.",
     tech: ["React", "Vite", "Express.js", "Bootstrap"] },
+  { file: "unfollow", tag: "LIVE", live: true, year: "2026", title: "Cek Unfollow", link: "Kunjungi website",
+    desc: "Periksa siapa yang tidak follow balik di Instagram langsung dari browser, tanpa password. Bisa di komputer, Android, dan iPhone.",
+    tech: ["HTML", "CSS", "JavaScript"] },
+  { file: "ulasan", tag: "LIVE", live: true, year: "2026", title: "Stand Ulasan (QR & NFC)", link: "Kunjungi website",
+    desc: "Generator stand ulasan Google untuk UMKM: cari lokasi usaha, desain kartu QR, tulis stiker NFC, dan kelola stand.",
+    tech: ["HTML", "JavaScript"] },
+  { file: "kcm", tag: "LIVE", live: true, year: "2026", title: "KCM · Lihat dari Kursi", link: "Kunjungi website",
+    desc: "Visualisasi kursi bioskop: pilih studio, ketuk kursi, lalu lihat layar dari posisi duduk lengkap dengan jarak dan sudut pandang.",
+    tech: ["HTML", "CSS", "JavaScript"] },
+  { file: "bisahosting", tag: "LIVE", live: true, year: "2023", title: "Bisahosting", link: "Kunjungi website",
+    desc: "Proyek kelompok: website perusahaan hosting dengan halaman beranda, tentang, dan kontak.",
+    tech: ["Pug", "SCSS", "HTML"] },
 ];
 
 function projectCard(p, t, mode) {
