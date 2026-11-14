@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="352" viewBox="0 0 990 352" role="img" aria-label="Aktivitas GitHub haidarhafiz21: 245 kontribusi, 164 dalam 12 bulan terakhir, streak terpanjang 10 hari">
+<title>Aktivitas GitHub haidarhafiz21: 245 kontribusi, 164 dalam 12 bulan terakhir, streak terpanjang 10 hari</title>
+<style>
+  text { font-family: 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+  .mono { font-family: Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace; letter-spacing: 2px; }
+  .serif { font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+  /* Isi selalu tampil walau animasi tidak jalan; animasi hanya efek masuk/hidup */
+  .rise { animation: rise .9s 1100ms cubic-bezier(.16,1,.3,1) backwards; }
+  .fade { animation: fade 1s 1100ms ease-out backwards; }
+  .bar { transform-box: fill-box; transform-origin: 50% 100%; animation: barUp 1.1s 1100ms cubic-bezier(.16,1,.3,1) backwards; }
+  .seg { transform-box: fill-box; transform-origin: 0 50%; animation: segIn .9s 1100ms cubic-bezier(.16,1,.3,1) backwards; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+  @keyframes fade { from { opacity: 0; } }
+  @keyframes barUp { from { transform: scaleY(0); } }
+  @keyframes segIn { from { transform: scaleX(0); opacity: 0; } }
+  @keyframes draw { from { stroke-dashoffset: 1; } }
+  
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect x="0.5" y="0.5" width="989" height="351" rx="14" fill="#ffffff" stroke="#d8dee4"/>
+
+<text x="28" y="38" font-size="11" fill="#59636e" class="mono">AKTIVITAS GITHUB</text>
+<text x="962" y="38" font-size="11.5" fill="#8c959f" text-anchor="end">Diperbarui 14 November 2026</text>
+
+<g class="rise" style="animation-delay:1200ms">
+  <text x="28" y="92" font-size="28" font-weight="700" fill="#1f2328" letter-spacing="-.5">245</text>
+  <text x="28" y="112" font-size="12.5" fill="#1f2328" fill-opacity=".8">Total kontribusi</text>
+  <text x="28" y="128" font-size="11.5" fill="#59636e">sejak Oktober 2023</text>
+</g><line x1="261.5" y1="66" x2="261.5" y2="122" stroke="#d8dee4"/>
+<g class="rise" style="animation-delay:1280ms">
+  <text x="281.5" y="92" font-size="28" font-weight="700" fill="#1f2328" letter-spacing="-.5">164</text>
+  <text x="281.5" y="112" font-size="12.5" fill="#1f2328" fill-opacity=".8">12 bulan terakhir</text>
+  <text x="281.5" y="128" font-size="11.5" fill="#59636e">18 hari aktif</text>
+</g><line x1="495" y1="66" x2="495" y2="122" stroke="#d8dee4"/>
+<g class="rise" style="animation-delay:1360ms">
+  <text x="515" y="92" font-size="28" font-weight="700" fill="#1f2328" letter-spacing="-.5">10 hari</text>
+  <text x="515" y="112" font-size="12.5" fill="#1f2328" fill-opacity=".8">Streak saat ini</text>
+  <text x="515" y="128" font-size="11.5" fill="#59636e">5 Nov – 14 Nov 2026</text>
+</g><line x1="728.5" y1="66" x2="728.5" y2="122" stroke="#d8dee4"/>
+<g class="rise" style="animation-delay:1440ms">
+  <text x="748.5" y="92" font-size="28" font-weight="700" fill="#1f2328" letter-spacing="-.5">10 hari</text>
+  <text x="748.5" y="112" font-size="12.5" fill="#1f2328" fill-opacity=".8">Streak terpanjang</text>
+  <text x="748.5" y="128" font-size="11.5" fill="#59636e">5 Nov – 14 Nov 2026</text>
+</g>
+<line x1="28" y1="152" x2="962" y2="152" stroke="#d8dee4"/>
+<text x="28" y="180" font-size="12.5" font-weight="600" fill="#1f2328">Kontribusi per minggu</text>
+<text x="180" y="180" font-size="11.5" fill="#59636e">12 bulan terakhir</text>
+<line x1="28" y1="248.0" x2="628" y2="248.0" stroke="#eef1f4" stroke-dasharray="2 4"/>
+<text x="634" y="251.5" font-size="10" fill="#8c959f">50</text><line x1="28" y1="196.0" x2="628" y2="196.0" stroke="#eef1f4" stroke-dasharray="2 4"/>
+<text x="634" y="199.5" font-size="10" fill="#8c959f">100</text>
+<line x1="28" y1="300" x2="628" y2="300" stroke="#d8dee4"/>
+<g class="bar" style="animation-delay:1350ms"><rect x="29.5" y="297.9" width="8.5" height="2.1" rx="1.5" fill="#1f2328" fill-opacity="0.72"/><rect x="41.0" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="52.6" y="279.2" width="8.5" height="20.8" rx="1.5" fill="#1f2328" fill-opacity="0.72"/><rect x="64.1" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="75.7" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="87.2" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="98.7" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="110.3" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="121.8" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="133.3" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="144.9" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="156.4" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="168.0" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="179.5" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="191.0" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="202.6" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="214.1" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="225.7" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="237.2" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="248.7" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="260.3" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="271.8" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="283.3" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="294.9" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="306.4" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="318.0" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="329.5" y="295.8" width="8.5" height="4.2" rx="1.5" fill="#1f2328" fill-opacity="0.72"/><rect x="341.0" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="352.6" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="364.1" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="375.7" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="387.2" y="299.0" width="8.5" height="1.0" rx="1.5" fill="#1f2328" fill-opacity="0.72"/><rect x="398.7" y="299.0" width="8.5" height="1.0" rx="1.5" fill="#1f2328" fill-opacity="0.72"/><rect x="410.3" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="421.8" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="433.3" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="444.9" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="456.4" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="468.0" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="479.5" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="491.0" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="502.6" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="514.1" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="525.7" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="537.2" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="548.7" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="560.3" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="571.8" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="583.3" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="594.9" y="298.5" width="8.5" height="1.5" fill="#d8dee4"/><rect x="606.4" y="234.5" width="8.5" height="65.5" rx="1.5" fill="#1f2328" fill-opacity="0.72"/><rect x="618.0" y="224.1" width="8.5" height="75.9" rx="1.5" fill="#2f5f98" fill-opacity="1"/></g>
+<text x="28.0" y="318" font-size="10.5" fill="#59636e">Nov</text><text x="108.8" y="318" font-size="10.5" fill="#59636e">Jan</text><text x="154.9" y="318" font-size="10.5" fill="#59636e">Feb</text><text x="201.1" y="318" font-size="10.5" fill="#59636e">Mar</text><text x="258.8" y="318" font-size="10.5" fill="#59636e">Apr</text><text x="304.9" y="318" font-size="10.5" fill="#59636e">Mei</text><text x="351.1" y="318" font-size="10.5" fill="#59636e">Jun</text><text x="408.8" y="318" font-size="10.5" fill="#59636e">Jul</text><text x="454.9" y="318" font-size="10.5" fill="#59636e">Agu</text><text x="512.6" y="318" font-size="10.5" fill="#59636e">Sep</text><text x="558.8" y="318" font-size="10.5" fill="#59636e">Okt</text><text x="604.9" y="318" font-size="10.5" fill="#59636e">Nov</text>
+<line x1="652" y1="168" x2="652" y2="320" stroke="#d8dee4"/>
+<text x="676" y="180" font-size="12.5" font-weight="600" fill="#1f2328">Bahasa</text>
+<text x="728" y="180" font-size="11.5" fill="#59636e">semua repositori</text>
+<g class="rise" style="animation-delay:1500ms"><g>
+  <rect x="676" y="198.5" width="7" height="7" rx="1.5" fill="#e34c26"/>
+  <text x="690" y="206" font-size="11.5" fill="#1f2328" fill-opacity=".85">HTML</text>
+  <rect x="770" y="201" width="150" height="3" rx="1.5" fill="#eaeef2"/>
+  <rect x="770" y="201" width="150.0" height="3" rx="1.5" fill="#1f2328" fill-opacity=".6"/>
+  <text x="962" y="206" font-size="11" fill="#59636e" text-anchor="end">47,0%</text>
+</g><g>
+  <rect x="676" y="215" width="7" height="7" rx="1.5" fill="#00B4AB"/>
+  <text x="690" y="222.5" font-size="11.5" fill="#1f2328" fill-opacity=".85">Dart</text>
+  <rect x="770" y="217.5" width="150" height="3" rx="1.5" fill="#eaeef2"/>
+  <rect x="770" y="217.5" width="67.6" height="3" rx="1.5" fill="#1f2328" fill-opacity=".6"/>
+  <text x="962" y="222.5" font-size="11" fill="#59636e" text-anchor="end">21,2%</text>
+</g><g>
+  <rect x="676" y="231.5" width="7" height="7" rx="1.5" fill="#f1e05a"/>
+  <text x="690" y="239" font-size="11.5" fill="#1f2328" fill-opacity=".85">JavaScript</text>
+  <rect x="770" y="234" width="150" height="3" rx="1.5" fill="#eaeef2"/>
+  <rect x="770" y="234" width="56.6" height="3" rx="1.5" fill="#1f2328" fill-opacity=".6"/>
+  <text x="962" y="239" font-size="11" fill="#59636e" text-anchor="end">17,7%</text>
+</g><g>
+  <rect x="676" y="248" width="7" height="7" rx="1.5" fill="#663399"/>
+  <text x="690" y="255.5" font-size="11.5" fill="#1f2328" fill-opacity=".85">CSS</text>
+  <rect x="770" y="250.5" width="150" height="3" rx="1.5" fill="#eaeef2"/>
+  <rect x="770" y="250.5" width="27.1" height="3" rx="1.5" fill="#1f2328" fill-opacity=".6"/>
+  <text x="962" y="255.5" font-size="11" fill="#59636e" text-anchor="end">8,5%</text>
+</g><g>
+  <rect x="676" y="264.5" width="7" height="7" rx="1.5" fill="#c6538c"/>
+  <text x="690" y="272" font-size="11.5" fill="#1f2328" fill-opacity=".85">SCSS</text>
+  <rect x="770" y="267" width="150" height="3" rx="1.5" fill="#eaeef2"/>
+  <rect x="770" y="267" width="7.5" height="3" rx="1.5" fill="#1f2328" fill-opacity=".6"/>
+  <text x="962" y="272" font-size="11" fill="#59636e" text-anchor="end">2,4%</text>
+</g><g>
+  <rect x="676" y="281" width="7" height="7" rx="1.5" fill="#a86454"/>
+  <text x="690" y="288.5" font-size="11.5" fill="#1f2328" fill-opacity=".85">Pug</text>
+  <rect x="770" y="283.5" width="150" height="3" rx="1.5" fill="#eaeef2"/>
+  <rect x="770" y="283.5" width="7.3" height="3" rx="1.5" fill="#1f2328" fill-opacity=".6"/>
+  <text x="962" y="288.5" font-size="11" fill="#59636e" text-anchor="end">2,3%</text>
+</g><g>
+  <rect x="676" y="297.5" width="7" height="7" rx="1.5" fill="#8c959f"/>
+  <text x="690" y="305" font-size="11.5" fill="#1f2328" fill-opacity=".85">Lainnya</text>
+  <rect x="770" y="300" width="150" height="3" rx="1.5" fill="#eaeef2"/>
+  <rect x="770" y="300" width="3.2" height="3" rx="1.5" fill="#1f2328" fill-opacity=".6"/>
+  <text x="962" y="305" font-size="11" fill="#59636e" text-anchor="end">1,0%</text>
+</g></g>
+</svg>
