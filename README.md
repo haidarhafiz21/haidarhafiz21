@@ -4,6 +4,10 @@
 
 <p align="center">
   <a href="https://haidarhafiz21.github.io/venusdigital/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-dark.svg?v=3"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-light.svg?v=3" alt="Website: Venus Digital"></picture></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-nexa-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-nexa-light.svg?v=1" alt="Nexa — aplikasi kencan dengan verifikasi wajah, versi mobile dan web" width="49%">
+  </picture>
   <a href="https://haidarhafiz21.github.io/jurnal-trading-app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-dark.svg?v=3"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-light.svg?v=3" alt="Aplikasi: Jurnal Trading"></picture></a>
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-dark.svg?v=3"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-light.svg?v=3" alt="Lokasi: Pamekasan, Madura"></picture>
 </p>
@@ -87,12 +91,13 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 </p>
 
 <details>
-<summary>Semua proyek (19) — sebagian besar kode sumber disimpan privat</summary>
+<summary>Semua proyek (20) — sebagian besar kode sumber disimpan privat</summary>
 <br>
 
 | Proyek | Repo | Keterangan | Teknologi | Tahun |
 |---|---|---|---|---|
 | **Digitalisasi Sistem Peminjaman Buku Perpustakaan pada Kejaksaan Negeri Sumenep Berbasis Mobile** | Flutter-PA, Backend-PA | Proyek akhir D3: kartu anggota ber-QR, scan barcode buku, dashboard admin. | Flutter, Express.js, PostgreSQL, ML Kit, Firebase, Midtrans | 2026 |
+| **Nexa · Aplikasi Kencan** | nexa | Aplikasi kencan dengan verifikasi wajah (ML Kit di HP, MediaPipe di web): swipe & match, chat, lokasi GPS, lupa kata sandi via email, moderasi laporan, dan versi web. | Flutter, Express.js, PostgreSQL, ML Kit | 2026 |
 | **Venus Digital** | [venusdigital](https://github.com/haidarhafiz21/venusdigital) · venusdigital-produk · [website](https://haidarhafiz21.github.io/venusdigital/) | Toko online template Excel & produk digital: katalog, halaman produk, artikel, SEO, pemesanan via WhatsApp. File produk disimpan di repo privat. | HTML, CSS, JavaScript, Node.js | 2026 |
 | **Website Portofolio** | portofolio | Website portofolio pribadi, dibuat tanpa framework. | HTML, CSS, JavaScript, Netlify | 2026 |
 | **Jurnal Trading** | jurnal-trading, [jurnal-trading-app](https://github.com/haidarhafiz21/jurnal-trading-app) | Jurnal trading offline, versi desktop dan versi HP. | Node.js, SQLite | 2026 |
