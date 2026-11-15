@@ -2,7 +2,8 @@ name: Perbarui kartu profil
 
 on:
   schedule:
-    - cron: "0 * * * *" # setiap pergantian jam (termasuk 00.00 WIB)
+    # Menit 7 dan 37: di luar jam padat GitHub (menit 0 sering ditunda atau dilewati)
+    - cron: "7,37 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
