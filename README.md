@@ -88,16 +88,26 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-cekip-dark.svg?v=1">
     <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-cekip-light.svg?v=1" alt="CekIP · Pemeriksa iPhone — cek keaslian komponen, baterai, iCloud/MDM, dan status resmi Indonesia lewat USB" width="49%">
   </picture>
+  <a href="https://haidarhafiz21.github.io/bekalasn/"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-bekalasn-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-bekalasn-light.svg?v=1" alt="BekalASN — belajar SKD CPNS: materi, cara cepat, latihan soal, dan simulasi CAT (live)" width="49%">
+  </picture></a>
+  <a href="https://haidarhafiz21.github.io/venus-cell/"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-venuscell-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-venuscell-light.svg?v=1" alt="Venus Cell — katalog jual-beli iPhone &amp; HP, tanya via WhatsApp (live)" width="49%">
+  </picture></a>
 </p>
 
 <details>
-<summary>Semua proyek (21) — sebagian besar kode sumber disimpan privat</summary>
+<summary>Semua proyek (23) — sebagian besar kode sumber disimpan privat</summary>
 <br>
 
 | Proyek | Repo | Keterangan | Teknologi | Tahun |
 |---|---|---|---|---|
 | **Digitalisasi Sistem Peminjaman Buku Perpustakaan pada Kejaksaan Negeri Sumenep Berbasis Mobile** | Flutter-PA, Backend-PA | Proyek akhir D3: kartu anggota ber-QR, scan barcode buku, dashboard admin. | Flutter, Express.js, PostgreSQL, ML Kit, Firebase, Midtrans | 2026 |
 | **Nexa · Aplikasi Kencan** | nexa | Aplikasi kencan dengan verifikasi wajah (ML Kit di HP, MediaPipe di web): swipe & match, chat, lokasi GPS, lupa kata sandi via email, moderasi laporan, dan versi web. | Flutter, Express.js, PostgreSQL, ML Kit | 2026 |
+| **BekalASN · Belajar SKD CPNS** | [bekalasn](https://github.com/haidarhafiz21/bekalasn) · [website](https://haidarhafiz21.github.io/bekalasn/) | Website belajar SKD CPNS (TWK, TIU, TKP): rangkuman materi, cara cepat, latihan soal dengan pembahasan, soal figural, dan simulasi CAT berwaktu. Konten terenkripsi dan dibuka dengan kunci lisensi per perangkat; bisa dipasang di HP (PWA). | HTML, CSS, JavaScript, Web Crypto, PWA | 2026 |
+| **Venus Cell · Katalog HP** | [venus-cell](https://github.com/haidarhafiz21/venus-cell) · [website](https://haidarhafiz21.github.io/venus-cell/) | Katalog jual-beli iPhone & HP: harga per varian, stok, battery health, filter seri, lalu tanya ketersediaan lewat WhatsApp dan transaksi COD. | HTML, CSS, JavaScript | 2026 |
 | **CekIP · Pemeriksa iPhone** | cekip | Aplikasi desktop untuk usaha jual-beli iPhone: cek keaslian komponen, kesehatan baterai, iCloud/MDM, status resmi Indonesia, log kerusakan, dan deteksi komponen yang ditukar, lengkap dengan laporan cetak untuk pembeli. | Python, FastAPI, JavaScript, pymobiledevice3 | 2026 |
 | **Venus Digital** | [venusdigital](https://github.com/haidarhafiz21/venusdigital) · venusdigital-produk · [website](https://haidarhafiz21.github.io/venusdigital/) | Toko online template Excel & produk digital: katalog, halaman produk, artikel, SEO, pemesanan via WhatsApp. File produk disimpan di repo privat. | HTML, CSS, JavaScript, Node.js | 2026 |
 | **Website Portofolio** | portofolio | Website portofolio pribadi, dibuat tanpa framework. | HTML, CSS, JavaScript, Netlify | 2026 |
@@ -115,7 +125,7 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 | **worksop_haidar** | worksop_haidar | Aplikasi CRUD data mahasiswa dan kategori. | Express.js, EJS, MySQL | 2024 |
 | **pemrograman_web** | pemrograman_web | Repositori kosong. | – | 2024 |
 | **Bisahosting** (proyek kelompok) | Kelompok2, [Kelompok2_Bisahosting](https://haidarhafiz21.github.io/Kelompok2_Bisahosting.github.io/) | Website dengan halaman beranda, tentang, dan kontak. | Pug, SCSS, HTML | 2023 |
-| **Website Profil UTS** | [haidarhafiz21.github.io](https://haidarhafiz21.github.io/) | Website profil untuk tugas UTS. | HTML, CSS | 2023 |
+| **Website Profil UTS** | haidarhafiz21.github.io | Website profil untuk tugas UTS. | HTML, CSS | 2023 |
 | **latihan-web** | latihan-web | Latihan template website. | Pug, SCSS | 2023 |
 
 </details>
