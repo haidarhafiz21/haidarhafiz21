@@ -151,13 +151,13 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/overview-dark.svg?v=3">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/overview-light.svg?v=3" alt="Aktivitas GitHub: total kontribusi, 12 bulan terakhir, streak, kontribusi per minggu, dan bahasa yang dipakai" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/overview-dark.svg?v=4">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/overview-light.svg?v=4" alt="Aktivitas GitHub: total kontribusi, 12 bulan terakhir, streak, kontribusi per minggu, dan bahasa yang dipakai" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/trend-dark.svg?v=3">
-  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/trend-light.svg?v=3" alt="Grafik kontribusi harian 31 hari terakhir" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/trend-dark.svg?v=4">
+  <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/output/trend-light.svg?v=4" alt="Grafik kontribusi harian 31 hari terakhir" width="100%">
 </picture>
 
 <br>
