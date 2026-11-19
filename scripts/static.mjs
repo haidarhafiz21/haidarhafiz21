@@ -159,7 +159,7 @@ function sectionHeader([no, title, tag], idx, t) {
 
 /* ---------------- Tombol tautan di bawah banner ---------------- */
 const LINKS = [
-  ["venus", "WEBSITE", "Venus Digital", true],
+  ["jasaweb", "WEBSITE", "Jasa Pembuatan Website", true],
   ["jurnal", "APLIKASI", "Jurnal Trading", true],
   ["lokasi", "LOKASI", "Pamekasan, Madura", false],
 ];

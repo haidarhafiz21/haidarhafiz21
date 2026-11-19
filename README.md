@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://haidarhafiz21.github.io/venusdigital/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-dark.svg?v=3"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-venus-light.svg?v=3" alt="Website: Venus Digital"></picture></a>
+  <a href="https://bisnispamekasan.biz.id"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jasaweb-dark.svg?v=1"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jasaweb-light.svg?v=1" alt="Website: Jasa Pembuatan Website"></picture></a>
   <a href="https://haidarhafiz21.github.io/jurnal-trading-app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-dark.svg?v=3"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-jurnal-light.svg?v=3" alt="Aplikasi: Jurnal Trading"></picture></a>
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-dark.svg?v=3"><img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/link-lokasi-light.svg?v=3" alt="Lokasi: Pamekasan, Madura"></picture>
 </p>
