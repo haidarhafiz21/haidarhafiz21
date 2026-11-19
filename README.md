@@ -64,10 +64,10 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-perpus-dark.svg?v=5">
     <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-perpus-light.svg?v=5" alt="Peminjaman Buku Perpustakaan — proyek akhir D3, aplikasi mobile untuk Kejaksaan Negeri Sumenep" width="49%">
   </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-nexa-dark.svg?v=1">
-    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-nexa-light.svg?v=1" alt="Nexa — aplikasi kencan dengan verifikasi wajah, versi mobile dan web" width="49%">
-  </picture>
+  <a href="https://bisnispamekasan.biz.id"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jasaweb-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jasaweb-light.svg?v=1" alt="Jasa Pembuatan Website — bisnispamekasan.biz.id: portofolio, layanan, harga, konsultasi WhatsApp (live)" width="49%">
+  </picture></a>
   <a href="https://haidarhafiz21.github.io/jurnal-trading-app/"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jurnal-dark.svg?v=5">
     <img src="https://raw.githubusercontent.com/haidarhafiz21/haidarhafiz21/main/assets/p-jurnal-light.svg?v=5" alt="Jurnal Trading — versi desktop dan HP" width="49%">
@@ -99,12 +99,13 @@ Halo, saya **Haidar**. Saya merancang dan membangun aplikasi web dan mobile seca
 </p>
 
 <details>
-<summary>Semua proyek (23) — sebagian besar kode sumber disimpan privat</summary>
+<summary>Semua proyek (24) — sebagian besar kode sumber disimpan privat</summary>
 <br>
 
 | Proyek | Repo | Keterangan | Teknologi | Tahun |
 |---|---|---|---|---|
 | **Digitalisasi Sistem Peminjaman Buku Perpustakaan pada Kejaksaan Negeri Sumenep Berbasis Mobile** | Flutter-PA, Backend-PA | Proyek akhir D3: kartu anggota ber-QR, scan barcode buku, dashboard admin. | Flutter, Express.js, PostgreSQL, ML Kit, Firebase, Midtrans | 2026 |
+| **Jasa Pembuatan Website** | [jasawebsite](https://github.com/haidarhafiz21/jasawebsite) · [website](https://bisnispamekasan.biz.id) | Situs usaha jasa pembuatan website: portofolio karya, layanan, paket harga, FAQ, dan formulir konsultasi ke WhatsApp. Domain sendiri, SEO, dan HTTPS. | HTML, CSS, JavaScript, GitHub Pages | 2026 |
 | **Nexa · Aplikasi Kencan** | nexa | Aplikasi kencan dengan verifikasi wajah (ML Kit di HP, MediaPipe di web): swipe & match, chat, lokasi GPS, lupa kata sandi via email, moderasi laporan, dan versi web. | Flutter, Express.js, PostgreSQL, ML Kit | 2026 |
 | **BekalASN · Belajar SKD CPNS** | [bekalasn](https://github.com/haidarhafiz21/bekalasn) · [website](https://haidarhafiz21.github.io/bekalasn/) | Website belajar SKD CPNS (TWK, TIU, TKP): rangkuman materi, cara cepat, latihan soal dengan pembahasan, soal figural, dan simulasi CAT berwaktu. Konten terenkripsi dan dibuka dengan kunci lisensi per perangkat; bisa dipasang di HP (PWA). | HTML, CSS, JavaScript, Web Crypto, PWA | 2026 |
 | **Venus Cell · Katalog HP** | [venus-cell](https://github.com/haidarhafiz21/venus-cell) · [website](https://haidarhafiz21.github.io/venus-cell/) | Katalog jual-beli iPhone & HP: harga per varian, stok, battery health, filter seri, lalu tanya ketersediaan lewat WhatsApp dan transaksi COD. | HTML, CSS, JavaScript | 2026 |
